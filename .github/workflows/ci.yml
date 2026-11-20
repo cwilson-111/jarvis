@@ -10,7 +10,7 @@ jobs:
     # macOS: the engine wheels (onnxruntime, sherpa-onnx, kokoro-onnx, openwakeword) all
     # install there; openwakeword pulls tflite-runtime on Linux, which has no wheel for
     # Python 3.12. No models are downloaded: the tests use fake engines.
-    runs-on: macos-14
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
