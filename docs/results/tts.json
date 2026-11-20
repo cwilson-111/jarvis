@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-11-20T23:16:12+00:00",
+  "voice": "am_michael",
+  "repeats": 3,
+  "metric": "best of 3 wall-clock synth time per sentence; RTF = synth time / audio length",
+  "variants": {
+    "kokoro-v1.0.int8.onnx": {
+      "size_mb": 88,
+      "rows": [
+        {
+          "chars": 5,
+          "audio_s": 0.73,
+          "synth_ms": 133,
+          "rtf": 0.183
+        },
+        {
+          "chars": 31,
+          "audio_s": 2.18,
+          "synth_ms": 300,
+          "rtf": 0.138
+        },
+        {
+          "chars": 87,
+          "audio_s": 5.63,
+          "synth_ms": 746,
+          "rtf": 0.133
+        },
+        {
+          "chars": 130,
+          "audio_s": 9.37,
+          "synth_ms": 1198,
+          "rtf": 0.128
+        }
+      ],
+      "rtf": 0.133
+    },
+    "kokoro-v1.0.fp16.onnx": {
+      "size_mb": 169,
+      "rows": [
+        {
+          "chars": 5,
+          "audio_s": 0.73,
+          "synth_ms": 234,
+          "rtf": 0.322
+        },
+        {
+          "chars": 31,
+          "audio_s": 2.13,
+          "synth_ms": 490,
+          "rtf": 0.23
+        },
+        {
+          "chars": 87,
+          "audio_s": 5.7,
+          "synth_ms": 1186,
+          "rtf": 0.208
+        },
+        {
+          "chars": 130,
+          "audio_s": 9.58,
+          "synth_ms": 1899,
+          "rtf": 0.198
+        }
+      ],
+      "rtf": 0.21
+    },
+    "kokoro-v1.0.onnx": {
+      "size_mb": 310,
+      "rows": [
+        {
+          "chars": 5,
+          "audio_s": 0.73,
+          "synth_ms": 264,
+          "rtf": 0.364
+        },
+        {
+          "chars": 31,
+          "audio_s": 2.18,
+          "synth_ms": 584,
+          "rtf": 0.268
+        },
+        {
+          "chars": 87,
+          "audio_s": 5.61,
+          "synth_ms": 1391,
+          "rtf": 0.248
+        },
+        {
+          "chars": 130,
+          "audio_s": 9.47,
+          "synth_ms": 2220,
+          "rtf": 0.234
+        }
+      ],
+      "rtf": 0.248
+    }
+  },
+  "hardware": {
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.12.13",
+    "cpu_count": 8,
+    "ram_gb": 8.0,
+    "chip": "Apple M2",
+    "model": "Mac14,7",
+    "macos": "15.5",
+    "packages": {
+      "sherpa-onnx": "2.0.2",
+      "kokoro-onnx": "0.6.1",
+      "openwakeword": "0.6.0",
+      "onnxruntime": "1.32.0",
+      "faster-whisper": "1.2.1"
+    }
+  },
+  "command": "jarvis bench tts",
+  "wall_s": 34.9
+}

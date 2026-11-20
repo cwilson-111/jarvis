@@ -1,0 +1,2457 @@
+{
+  "generated_at": "2026-11-20T23:09:59+00:00",
+  "dataset": "LibriSpeech test-clean",
+  "utterances": 200,
+  "speakers": 40,
+  "audio_s": 1453.6,
+  "selection": "every k-th utterance of the id-sorted list (k = 2620 / n)",
+  "engines": {
+    "parakeet-tdt-0.6b-v3-int8": {
+      "wer": 0.0238,
+      "substitutions": 72,
+      "deletions": 11,
+      "insertions": 11,
+      "ref_words": 3951,
+      "rtf": 0.0342,
+      "compute_s": 49.78,
+      "load_s": 1.36,
+      "threads": 4,
+      "utterances_with_errors": 58,
+      "rows": [
+        {
+          "id": "1089-134686-0000",
+          "ref": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE",
+          "hyp": "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick, peppered, flour fattened sauce.",
+          "errors": 0
+        },
+        {
+          "id": "1089-134686-0013",
+          "ref": "IF EVER HE WAS IMPELLED TO CAST SIN FROM HIM AND TO REPENT THE IMPULSE THAT MOVED HIM WAS THE WISH TO BE HER KNIGHT",
+          "hyp": "If ever he was impelled to cast sin from him and to repent, the impulse that moved him was the wish to be her knight.",
+          "errors": 0
+        },
+        {
+          "id": "1089-134686-0026",
+          "ref": "THE RECTOR DID NOT ASK FOR A CATECHISM TO HEAR THE LESSON FROM",
+          "hyp": "The Rector did not ask for a catechism to hear the lesson from,",
+          "errors": 0
+        },
+        {
+          "id": "1089-134691-0001",
+          "ref": "FOR A FULL HOUR HE HAD PACED UP AND DOWN WAITING BUT HE COULD WAIT NO LONGER",
+          "hyp": "For a full hour he had paced up and down, waiting, but he could wait no longer.",
+          "errors": 0
+        },
+        {
+          "id": "1089-134691-0014",
+          "ref": "THE PHRASE AND THE DAY AND THE SCENE HARMONIZED IN A CHORD",
+          "hyp": "The phrase and the day and the scene harmonized in a chord.",
+          "errors": 0
+        },
+        {
+          "id": "1188-133604-0001",
+          "ref": "THEY UNITE EVERY QUALITY AND SOMETIMES YOU WILL FIND ME REFERRING TO THEM AS COLORISTS SOMETIMES AS CHIAROSCURISTS",
+          "hyp": "They unite every quality. And sometimes you will find me referring to them as colourists, sometimes as chiaroscurists.",
+          "errors": 1
+        },
+        {
+          "id": "1188-133604-0014",
+          "ref": "DO NOT THEREFORE THINK THAT THE GOTHIC SCHOOL IS AN EASY ONE",
+          "hyp": "Do not, therefore, think that the Gothic school is an easy one.",
+          "errors": 0
+        },
+        {
+          "id": "1188-133604-0027",
+          "ref": "NOW HERE IS RAPHAEL EXACTLY BETWEEN THE TWO TREES STILL DRAWN LEAF BY LEAF WHOLLY FORMAL BUT BEAUTIFUL MIST COMING GRADUALLY INTO THE DISTANCE",
+          "hyp": "Now here is Raphael, exactly between the two, trees still drawn leaf by leaf, wholly formal, but beautiful mist coming gradually into the distance.",
+          "errors": 0
+        },
+        {
+          "id": "1188-133604-0040",
+          "ref": "THE CRAMPNESS AND THE POVERTY ARE ALL INTENDED",
+          "hyp": "The crampness and the poverty are all intended.",
+          "errors": 0
+        },
+        {
+          "id": "121-121726-0008",
+          "ref": "HOSE MAN'S EXCUSE FOR WETTING THE WALK",
+          "hyp": "Hose Man's excuse for wetting the walk",
+          "errors": 0
+        },
+        {
+          "id": "121-123859-0002",
+          "ref": "BUT RECKONING TIME WHOSE MILLION'D ACCIDENTS CREEP IN TWIXT VOWS AND CHANGE DECREES OF KINGS TAN SACRED BEAUTY BLUNT THE SHARP'ST INTENTS DIVERT STRONG MINDS TO THE COURSE OF ALTERING THINGS ALAS WHY FEARING OF TIME'S TYRANNY MIGHT I NOT THEN SAY NOW I LOVE YOU BEST WHEN I WAS CERTAIN O'ER INCERTAINTY CROWNING THE PRESENT DOUBTING OF THE REST",
+          "hyp": "But reckoning time, whose millioned accidents Creep intwixt vows, And change decrees of kings, Tan sacred beauty, blunt the sharpest intense, Divert strong minds to the course of altering things Alas, why fearing of time's tyranny? Might I not then say, Now I love you best, When I was certain o'er in certainty, Crowning the present, doubting of the rest?",
+          "errors": 7
+        },
+        {
+          "id": "121-127105-0010",
+          "ref": "SHE SENT ME THE PAGES IN QUESTION BEFORE SHE DIED",
+          "hyp": "She sent me the pages in question before she died, but",
+          "errors": 1
+        },
+        {
+          "id": "121-127105-0023",
+          "ref": "LET ME SAY HERE DISTINCTLY TO HAVE DONE WITH IT THAT THIS NARRATIVE FROM AN EXACT TRANSCRIPT OF MY OWN MADE MUCH LATER IS WHAT I SHALL PRESENTLY GIVE",
+          "hyp": "let me say here distinctly to have done with it, that this narrative, from an exact transcript of my own made much later, is what I shall presently give.",
+          "errors": 0
+        },
+        {
+          "id": "121-127105-0036",
+          "ref": "BUT WAS THAT ALL HER REWARD ONE OF THE LADIES ASKED",
+          "hyp": "But was that all her reward? one of the ladies asked.",
+          "errors": 0
+        },
+        {
+          "id": "1221-135766-0012",
+          "ref": "BROODING OVER ALL THESE MATTERS THE MOTHER FELT LIKE ONE WHO HAS EVOKED A SPIRIT BUT BY SOME IRREGULARITY IN THE PROCESS OF CONJURATION HAS FAILED TO WIN THE MASTER WORD THAT SHOULD CONTROL THIS NEW AND INCOMPREHENSIBLE INTELLIGENCE",
+          "hyp": "Brooding over all these matters, the mother felt like one who has evoked a spirit, but by some irregularity in the process of conjuration has failed to win the master word that should control this new and incomprehensible intelligence.",
+          "errors": 0
+        },
+        {
+          "id": "1221-135767-0009",
+          "ref": "BUT PEARL WHO WAS A DAUNTLESS CHILD AFTER FROWNING STAMPING HER FOOT AND SHAKING HER LITTLE HAND WITH A VARIETY OF THREATENING GESTURES SUDDENLY MADE A RUSH AT THE KNOT OF HER ENEMIES AND PUT THEM ALL TO FLIGHT",
+          "hyp": "But Pearl, who was a dauntless child, after frowning, stamping her foot, and shaking her little hand with a variety of threatening gestures, suddenly made a rush at the knot of her enemies, and put them all to flight.",
+          "errors": 0
+        },
+        {
+          "id": "1221-135767-0022",
+          "ref": "BUT THE PROPRIETOR APPEARED ALREADY TO HAVE RELINQUISHED AS HOPELESS THE EFFORT TO PERPETUATE ON THIS SIDE OF THE ATLANTIC IN A HARD SOIL AND AMID THE CLOSE STRUGGLE FOR SUBSISTENCE THE NATIVE ENGLISH TASTE FOR ORNAMENTAL GARDENING",
+          "hyp": "but the proprietor appeared already to have relinquished as hopeless the effort to perpetuate, on this side of the Atlantic, in a hard soil, and amid the close struggle for subsistence, the native English taste for ornamental gardening.",
+          "errors": 0
+        },
+        {
+          "id": "1284-1180-0010",
+          "ref": "UNC KNOCKED AT THE DOOR OF THE HOUSE AND A CHUBBY PLEASANT FACED WOMAN DRESSED ALL IN BLUE OPENED IT AND GREETED THE VISITORS WITH A SMILE",
+          "hyp": "Unk knocked at the door of the house, and a chubby, pleasant faced woman, dressed all in blue, opened it, and greeted the visitors with a smile.",
+          "errors": 1
+        },
+        {
+          "id": "1284-1180-0023",
+          "ref": "YOU SEE I'VE LIVED ALL MY LIFE WITH UNC NUNKIE THE SILENT ONE AND THERE WAS NO ONE TO TELL ME ANYTHING",
+          "hyp": "You see, I've lived all my life with Unk Nunky, the silent one, and there was no one to tell me anything.",
+          "errors": 2
+        },
+        {
+          "id": "1284-1181-0003",
+          "ref": "THE HAIR WAS OF BROWN YARN AND HUNG DOWN ON HER NECK IN SEVERAL NEAT BRAIDS",
+          "hyp": "The hair was of brown yarn and hung down on her neck in several neat braids,",
+          "errors": 0
+        },
+        {
+          "id": "1284-1181-0017",
+          "ref": "THE WIZARD OF OZ WHO USED TO BE A HUMBUG AND KNEW NO MAGIC AT ALL HAS BEEN TAKING LESSONS OF GLINDA AND I'M TOLD HE IS GETTING TO BE A PRETTY GOOD WIZARD BUT HE IS MERELY THE ASSISTANT OF THE GREAT SORCERESS",
+          "hyp": "The Wizard of Oz, who used to be a humbug and knew no magic at all, has been taking lessons of Glinda, and I'm told he is getting to be a pretty good wizard. But he is merely the assistant of the great sorcerers.",
+          "errors": 1
+        },
+        {
+          "id": "1320-122612-0000",
+          "ref": "SINCE THE PERIOD OF OUR TALE THE ACTIVE SPIRIT OF THE COUNTRY HAS SURROUNDED IT WITH A BELT OF RICH AND THRIVING SETTLEMENTS THOUGH NONE BUT THE HUNTER OR THE SAVAGE IS EVER KNOWN EVEN NOW TO PENETRATE ITS WILD RECESSES",
+          "hyp": "Since the period of our tale, the active spirit of the country has surrounded it with a belt of rich and thriving settlements, though none but the hunter or the savage is ever known even now to penetrate its wild recesses.",
+          "errors": 0
+        },
+        {
+          "id": "1320-122612-0013",
+          "ref": "A CIRCLE OF A FEW HUNDRED FEET IN CIRCUMFERENCE WAS DRAWN AND EACH OF THE PARTY TOOK A SEGMENT FOR HIS PORTION",
+          "hyp": "a circle of a few hundred feet in circumference was drawn, and each of the party took a segment for his portion.",
+          "errors": 0
+        },
+        {
+          "id": "1320-122617-0009",
+          "ref": "I GREATLY MOURN THAT ONE SO WELL DISPOSED SHOULD DIE IN HIS IGNORANCE AND I HAVE SOUGHT A GOODLY HYMN CAN YOU LEAD ME TO HIM",
+          "hyp": "I greatly mourn that one so well disposed should die in his ignorance, and I have sought a goodly hymn can you lead me to him?",
+          "errors": 0
+        },
+        {
+          "id": "1320-122617-0022",
+          "ref": "THE DELAWARES ARE CHILDREN OF THE TORTOISE AND THEY OUTSTRIP THE DEER",
+          "hyp": "The Delawares are children of the tortoise, and they outstrip the deer.",
+          "errors": 0
+        },
+        {
+          "id": "1320-122617-0035",
+          "ref": "THEN HEAVING A HEAVY SIGH PROBABLY AMONG THE LAST HE EVER DREW IN PINING FOR A CONDITION HE HAD SO LONG ABANDONED HE ADDED IT IS WHAT I WOULD WISH TO PRACTISE MYSELF AS ONE WITHOUT A CROSS OF BLOOD THOUGH IT IS NOT ALWAYS EASY TO DEAL WITH AN INDIAN AS YOU WOULD WITH A FELLOW CHRISTIAN",
+          "hyp": "Then, heaving a heavy sigh, probably among the last he ever drew, in pining for a condition he had so long abandoned, he added, It is what I would wish to practise myself, as one without a cross of blood, though it is not always easy to deal with an Indian as you would with a fellow Christian.",
+          "errors": 0
+        },
+        {
+          "id": "1580-141083-0006",
+          "ref": "THE ONLY DUPLICATE WHICH EXISTED SO FAR AS I KNEW WAS THAT WHICH BELONGED TO MY SERVANT BANNISTER A MAN WHO HAS LOOKED AFTER MY ROOM FOR TEN YEARS AND WHOSE HONESTY IS ABSOLUTELY ABOVE SUSPICION",
+          "hyp": "The only duplicate which existed, so far as I knew, was that which belonged to my servant, Bannister, a man who has looked after my room for ten years, and whose honesty is absolutely above suspicion.",
+          "errors": 0
+        },
+        {
+          "id": "1580-141083-0019",
+          "ref": "ABOVE WERE THREE STUDENTS ONE ON EACH STORY",
+          "hyp": "Above were three students, one on each story.",
+          "errors": 0
+        },
+        {
+          "id": "1580-141083-0032",
+          "ref": "WATSON I HAVE ALWAYS DONE YOU AN INJUSTICE THERE ARE OTHERS",
+          "hyp": "Watson, I have always done you an injustice. There are others.",
+          "errors": 0
+        },
+        {
+          "id": "1580-141083-0045",
+          "ref": "HE WAS STILL SUFFERING FROM THIS SUDDEN DISTURBANCE OF THE QUIET ROUTINE OF HIS LIFE",
+          "hyp": "He was still suffering from the sudden disturbance of the quiet routine of his life.",
+          "errors": 1
+        },
+        {
+          "id": "1580-141084-0005",
+          "ref": "THAT IS VERY IMPORTANT SAID HOLMES",
+          "hyp": "That is very important, said Holmes.",
+          "errors": 0
+        },
+        {
+          "id": "1580-141084-0018",
+          "ref": "I THINK SO YOU HAVE FORMED A CONCLUSION",
+          "hyp": "I think so. You have formed a conclusion.",
+          "errors": 0
+        },
+        {
+          "id": "1580-141084-0031",
+          "ref": "WE WANT TO KNOW MISTER GILCHRIST HOW YOU AN HONOURABLE MAN EVER CAME TO COMMIT SUCH AN ACTION AS THAT OF YESTERDAY",
+          "hyp": "We want to know, mister Gilchrist, how you, an honorable man, ever came to commit such an action as that of yesterday.",
+          "errors": 1
+        },
+        {
+          "id": "1580-141084-0044",
+          "ref": "GLOVES SAID THE YOUNG MAN",
+          "hyp": "Gloves, said the young man.",
+          "errors": 0
+        },
+        {
+          "id": "1995-1826-0006",
+          "ref": "BEEN LOOKING UP TOOMS COUNTY",
+          "hyp": "Been looking up Toomes County.",
+          "errors": 1
+        },
+        {
+          "id": "1995-1826-0019",
+          "ref": "COTTON IS A WONDERFUL THING IS IT NOT BOYS SHE SAID RATHER PRIMLY",
+          "hyp": "Cotton is a wonderful thing, is it not, boys? she said rather primly.",
+          "errors": 0
+        },
+        {
+          "id": "1995-1836-0005",
+          "ref": "MISSUS GREY HAD MET SOUTHERNERS BEFORE BUT NOT INTIMATELY AND SHE ALWAYS HAD IN MIND VIVIDLY THEIR CRUELTY TO POOR NEGROES A SUBJECT SHE MADE A POINT OF INTRODUCING FORTHWITH",
+          "hyp": "misses Gray had met Southerners before, but not intimately, and she always had in mind vividly their cruelty to poor negroes, a subject she made a point of introducing forthwith.",
+          "errors": 2
+        },
+        {
+          "id": "1995-1837-0003",
+          "ref": "THE REVELATION OF HIS LOVE LIGHTED AND BRIGHTENED SLOWLY TILL IT FLAMED LIKE A SUNRISE OVER HIM AND LEFT HIM IN BURNING WONDER",
+          "hyp": "The revelation of his love lighted and brightened slowly till it flamed like a sunrise over him and left him in burning wonder.",
+          "errors": 0
+        },
+        {
+          "id": "1995-1837-0016",
+          "ref": "FOR ONE LONG MOMENT HE PAUSED STUPID AGAPE WITH UTTER AMAZEMENT THEN LEANED DIZZILY AGAINST A TREE",
+          "hyp": "For one long moment he paused, stupid, agape, with utter amazement, then leaned dizzily against the tree.",
+          "errors": 1
+        },
+        {
+          "id": "1995-1837-0029",
+          "ref": "HE DARTED THROUGH THE TREES AND PAUSED A TALL MAN STRONGLY BUT SLIMLY MADE",
+          "hyp": "He darted through the trees and paused, a tall man, strongly but slimly made,",
+          "errors": 0
+        },
+        {
+          "id": "2094-142345-0013",
+          "ref": "HER TONGUE WAS NOT LESS KEEN THAN HER EYE AND WHENEVER A DAMSEL CAME WITHIN EARSHOT SEEMED TO TAKE UP AN UNFINISHED LECTURE AS A BARREL ORGAN TAKES UP A TUNE PRECISELY AT THE POINT WHERE IT HAD LEFT OFF",
+          "hyp": "Her tongue was not less keen than her eye, and whenever a damsel came within earshot, seemed to take up an unfinished lecture, as a barrel organ takes up a tune precisely at the point where it had left off.",
+          "errors": 0
+        },
+        {
+          "id": "2094-142345-0026",
+          "ref": "SHE'S GOING TO PUT THE IRONING THINGS AWAY",
+          "hyp": "She's going to put the ironing things away.",
+          "errors": 0
+        },
+        {
+          "id": "2094-142345-0039",
+          "ref": "I'VE STRONG ASSURANCE THAT NO EVIL WILL HAPPEN TO YOU AND MY UNCLE AND THE CHILDREN FROM ANYTHING I'VE DONE",
+          "hyp": "I have strong assurance that no evil will happen to you and my uncle and the children from anything I have done.",
+          "errors": 4
+        },
+        {
+          "id": "2094-142345-0052",
+          "ref": "I MUST COME ANOTHER DAY AND SEE YOUR HUSBAND I WANT TO HAVE A CONSULTATION WITH HIM ABOUT HORSES",
+          "hyp": "I must come another day and see your husband. I want to have a consultation with him about horses.",
+          "errors": 0
+        },
+        {
+          "id": "2300-131720-0004",
+          "ref": "OWING TO HIS INSISTENCE ON LOW PRESSURE DIRECT CURRENT FOR USE IN DENSELY POPULATED DISTRICTS AS THE ONLY SAFE AND TRULY UNIVERSAL PROFITABLE WAY OF DELIVERING ELECTRICAL ENERGY TO THE CONSUMERS EDISON HAS BEEN FREQUENTLY SPOKEN OF AS AN OPPONENT OF THE ALTERNATING CURRENT",
+          "hyp": "Owing to his insistence on low pressure, direct current for use in densely populated districts as the only safe and truly universal profitable way of delivering electrical energy to the consumers, Edison has been frequently spoken of as an opponent of the alternating current.",
+          "errors": 0
+        },
+        {
+          "id": "2300-131720-0017",
+          "ref": "EDISON HAD INSTALLED HIS HISTORIC FIRST GREAT CENTRAL STATION SYSTEM IN NEW YORK ON THE MULTIPLE ARC SYSTEM COVERED BY HIS FEEDER AND MAIN INVENTION WHICH RESULTED IN A NOTABLE SAVING IN THE COST OF CONDUCTORS AS AGAINST A STRAIGHT TWO WIRE SYSTEM THROUGHOUT OF THE TREE KIND",
+          "hyp": "Edison had installed his historic first great Central Station system in New York on the multiple arc system covered by his feeder and main invention, which resulted in a notable saving in the cost of conductors as against a straight two wire system throughout of the tree kind.",
+          "errors": 0
+        },
+        {
+          "id": "2300-131720-0030",
+          "ref": "THE PRINCIPLE EMPLOYED IN THE EDISON ELECTROLYTIC METER IS THAT WHICH EXEMPLIFIES THE POWER OF ELECTRICITY TO DECOMPOSE A CHEMICAL SUBSTANCE",
+          "hyp": "The principle employed in the Edison electrolytic meter is that which exemplifies the power of electricity to decompose a chemical substance.",
+          "errors": 0
+        },
+        {
+          "id": "237-126133-0001",
+          "ref": "EVERY CHANCE SHE COULD STEAL AFTER PRACTICE HOURS WERE OVER AND AFTER THE CLAMOROUS DEMANDS OF THE BOYS UPON HER TIME WERE FULLY SATISFIED WAS SEIZED TO FLY ON THE WINGS OF THE WIND TO THE FLOWERS",
+          "hyp": "Every chance she could steal after practice hours were over, and after the clamorous demands of the boys upon her time were fulfied, was seized to fly on the wings of the wind to the flowers.",
+          "errors": 2
+        },
+        {
+          "id": "237-126133-0014",
+          "ref": "ASKED PHRONSIE IN INTENSE INTEREST SLIPPING DOWN OUT OF POLLY'S ARMS AND CROWDING UP CLOSE TO JASPER'S SIDE",
+          "hyp": "asked Phronsie, in intense interest slipping down out of Polly's arms and crowding up close to Jasper's side.",
+          "errors": 0
+        },
+        {
+          "id": "237-134493-0001",
+          "ref": "HIS WIFE NOW LIES BESIDE HIM AND THE WHITE SHAFT THAT MARKS THEIR GRAVES GLEAMS ACROSS THE WHEAT FIELDS",
+          "hyp": "His wife now lies beside him, and the white shaft that marks their graves gleams across the wheat fields.",
+          "errors": 0
+        },
+        {
+          "id": "237-134493-0015",
+          "ref": "THERE WAS SOMETHING INDIVIDUAL ABOUT THE GREAT FARM A MOST UNUSUAL TRIMNESS AND CARE FOR DETAIL",
+          "hyp": "There was something individual about the great farm, a most unusual trimness and care for detail.",
+          "errors": 0
+        },
+        {
+          "id": "237-134500-0009",
+          "ref": "I SUPPOSE THAT'S THE WET SEASON TOO THEN",
+          "hyp": "I suppose that's the wet season too, then.",
+          "errors": 0
+        },
+        {
+          "id": "237-134500-0022",
+          "ref": "WHEN SHE USED TO TELL ME ABOUT HIM I ALWAYS WONDERED WHETHER SHE WASN'T A LITTLE IN LOVE WITH HIM",
+          "hyp": "when she used to tell me about him, I always wondered whether she wasn't a little in love with him.",
+          "errors": 0
+        },
+        {
+          "id": "237-134500-0035",
+          "ref": "AND YOU NEVER USED TO BE CROSS TO ME",
+          "hyp": "and you never used to be cross to me.",
+          "errors": 0
+        },
+        {
+          "id": "260-123286-0005",
+          "ref": "I AM NOT COMPLAINING THAT THE RATE IS SLOW BUT THAT THE SEA IS SO WIDE",
+          "hyp": "I am not complaining that the raid is slow, but that the sea is so wide.",
+          "errors": 1
+        },
+        {
+          "id": "260-123286-0018",
+          "ref": "I SAW AT THE HAMBURG MUSEUM THE SKELETON OF ONE OF THESE CREATURES THIRTY FEET IN LENGTH",
+          "hyp": "I saw at the Hamburg Museum the skeleton of one of these creatures, thirty feet in length.",
+          "errors": 0
+        },
+        {
+          "id": "260-123286-0031",
+          "ref": "AS FOR THE ICHTHYOSAURUS HAS HE RETURNED TO HIS SUBMARINE CAVERN",
+          "hyp": "As for the Ithyosaurus, has he returned to his submarine cabin?",
+          "errors": 2
+        },
+        {
+          "id": "260-123288-0012",
+          "ref": "THAT WILL BE SAFEST NO NO NEVER",
+          "hyp": "That will be the safest. No, no, never",
+          "errors": 1
+        },
+        {
+          "id": "260-123288-0025",
+          "ref": "HERE IT COMES THERE IT GLIDES NOW IT IS UP THE RAGGED STUMP OF THE MAST THENCE IT LIGHTLY LEAPS ON THE PROVISION BAG DESCENDS WITH A LIGHT BOUND AND JUST SKIMS THE POWDER MAGAZINE HORRIBLE",
+          "hyp": "Here it comes, there it glides. Now it is up the ragged stump of the mast, thence it lightly leaps on the provision bag, descends with a light bound, and just skim the powder magazine. Horrible.",
+          "errors": 1
+        },
+        {
+          "id": "260-123440-0009",
+          "ref": "I SHALL NEVER GET TO TWENTY AT THAT RATE",
+          "hyp": "I shall never get to twenty at that rate.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3979-0002",
+          "ref": "LET US BEGIN WITH THAT HIS COMMENTARY ON GALATIANS",
+          "hyp": "Let us begin with that. His commentary on Galatians.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3980-0002",
+          "ref": "HE WAS THE LAST TO TURN TO CHRIST",
+          "hyp": "He was the last to turn to Christ.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3980-0015",
+          "ref": "FOR A PERSON TO POSSESS KNOWLEDGE IS NOT ENOUGH",
+          "hyp": "For a person to possess knowledge is not enough.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3980-0028",
+          "ref": "THIS SHOULD GO FAR IN SHUTTING THE MOUTHS OF THE FALSE APOSTLES",
+          "hyp": "This should go far in shutting the mouths of the false apostles.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3980-0041",
+          "ref": "GRACE INVOLVES THE REMISSION OF SINS PEACE AND A HAPPY CONSCIENCE",
+          "hyp": "Grace involves the remission of sins, peace, and a happy conscience.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3980-0054",
+          "ref": "THAT CHRIST IS VERY GOD IS APPARENT IN THAT PAUL ASCRIBES TO HIM DIVINE POWERS EQUALLY WITH THE FATHER AS FOR INSTANCE THE POWER TO DISPENSE GRACE AND PEACE",
+          "hyp": "That Christ is very God, is apparent in that Paul ascribes to him divine powers equally with the Father, as, for instance, the power to dispense grace and peace,",
+          "errors": 0
+        },
+        {
+          "id": "2830-3980-0067",
+          "ref": "THIS SENTENCE ALSO DEFINES OUR SINS AS GREAT SO GREAT IN FACT THAT THE WHOLE WORLD COULD NOT MAKE AMENDS FOR A SINGLE SIN",
+          "hyp": "This sentence also defines our sins as great, so great, in fact, that the whole world could not make amends for a single sin.",
+          "errors": 0
+        },
+        {
+          "id": "2961-960-0003",
+          "ref": "THEY WERE ABSORBED IN HIS THEOLOGY AND WERE UNDER THE DOMINION OF HIS NAME WHILE THAT WHICH WAS TRULY GREAT AND TRULY CHARACTERISTIC IN HIM HIS EFFORT TO REALIZE AND CONNECT ABSTRACTIONS WAS NOT UNDERSTOOD BY THEM AT ALL",
+          "hyp": "They were absorbed in his theology, and were under the dominion of his name, while that which was truly great and truly characteristic in him, his effort to realise and connect abstractions, was not understood by them at all.",
+          "errors": 1
+        },
+        {
+          "id": "2961-960-0016",
+          "ref": "BUT PLATO HAS NOT THE SAME MASTERY OVER HIS INSTRUMENT WHICH HE EXHIBITS IN THE PHAEDRUS OR SYMPOSIUM",
+          "hyp": "But Plato has not the same mastery over his instrument, which he exhibits in the Phedres or Symposium.",
+          "errors": 1
+        },
+        {
+          "id": "2961-961-0006",
+          "ref": "AND WHAT WAS THE SUBJECT OF THE POEM SAID THE PERSON WHO MADE THE REMARK",
+          "hyp": "And what was the subject of the poem? said the person who made the remark.",
+          "errors": 0
+        },
+        {
+          "id": "2961-961-0020",
+          "ref": "THIS IS THE EXPLANATION OF THE SHALLOWS WHICH ARE FOUND IN THAT PART OF THE ATLANTIC OCEAN",
+          "hyp": "This is the explanation of the shallows which are found in that part of the Atlantic Ocean.",
+          "errors": 0
+        },
+        {
+          "id": "3570-5694-0010",
+          "ref": "THE OBJECTION OF COURSE PRESENTS ITSELF THAT EXPENDITURE ON WOMEN'S DRESS AND HOUSEHOLD PARAPHERNALIA IS AN OBVIOUS EXCEPTION TO THIS RULE BUT IT WILL APPEAR IN THE SEQUEL THAT THIS EXCEPTION IS MUCH MORE OBVIOUS THAN SUBSTANTIAL",
+          "hyp": "The objection, of course, presents itself that expenditure on women's stress and household paraphernalia is an obvious exception to this rule, but it will appear in the sequel that this exception is much more obvious than substantial.",
+          "errors": 1
+        },
+        {
+          "id": "3570-5695-0000",
+          "ref": "IN A GENERAL WAY THOUGH NOT WHOLLY NOR CONSISTENTLY THESE TWO GROUPS COINCIDE",
+          "hyp": "In a general way, though not wholly nor consistently these two groups coincide.",
+          "errors": 0
+        },
+        {
+          "id": "3570-5695-0013",
+          "ref": "CONSUMPTION BECOMES A LARGER ELEMENT IN THE STANDARD OF LIVING IN THE CITY THAN IN THE COUNTRY",
+          "hyp": "Consumption becomes a larger element in the standard of living in the city than in the country.",
+          "errors": 0
+        },
+        {
+          "id": "3570-5696-0010",
+          "ref": "AN ARTICLE MAY BE USEFUL AND WASTEFUL BOTH AND ITS UTILITY TO THE CONSUMER MAY BE MADE UP OF USE AND WASTE IN THE MOST VARYING PROPORTIONS",
+          "hyp": "an article may be useful and wasteful both, and its utility to the consumer may be made up of use and waste in the most varying proportions.",
+          "errors": 0
+        },
+        {
+          "id": "3575-170457-0012",
+          "ref": "YOU WILL SAY THAT A WOMAN HAS NO NEED OF SUCH A CAUTION THERE CAN BE NO PERIL IN IT FOR HER",
+          "hyp": "You will say that a woman has no need of such a caution. There can be no peril in it for her.",
+          "errors": 0
+        },
+        {
+          "id": "3575-170457-0025",
+          "ref": "AGAIN I THANK YOU THIS INCIDENT I SUPPOSE WILL BE RENEWED NO MORE IF I LIVE TO BE AN OLD WOMAN I SHALL REMEMBER IT THIRTY YEARS HENCE AS A BRIGHT DREAM",
+          "hyp": "Again I thank you. This incident, I suppose, will be renewed no more. If I live to be an old woman I shall remember it thirty years hence as a bright dream.",
+          "errors": 0
+        },
+        {
+          "id": "3575-170457-0038",
+          "ref": "AND MEANTIME I KNOW THE GREATNESS OF JEHOVAH I ACKNOWLEDGE THE PERFECTION OF HIS WORD I ADORE THE PURITY OF THE CHRISTIAN FAITH MY THEORY IS RIGHT MY PRACTICE HORRIBLY WRONG",
+          "hyp": "And mean time I know the greatness of Jehovah. I acknowledge the perfection of his word. I adore the purity of the Christian faith. My theory is right, my practice horribly wrong.",
+          "errors": 2
+        },
+        {
+          "id": "3575-170457-0051",
+          "ref": "AT TEA TIME THEY WERE SAD AND SILENT AND THE MEAL WENT AWAY UNTOUCHED BY ANY OF THE THREE",
+          "hyp": "At tea time they were sad and silent, and the meal went away untouched by any of the three.",
+          "errors": 0
+        },
+        {
+          "id": "3729-6852-0007",
+          "ref": "TWO YEARS BEFORE HER DEATH I SAW HER PERFORM THE CHARACTER OF MARIANNE IN THE COMEDY OF MARIVAUX AND IN SPITE OF HER AGE AND DECLINING HEALTH THE ILLUSION WAS COMPLETE",
+          "hyp": "Two years before her death I saw her perform the character of Mary Anne in the comedy of Marivaux, and in spite of her age and declining health the illusion was complete.",
+          "errors": 2
+        },
+        {
+          "id": "3729-6852-0021",
+          "ref": "I THANK HIM AND TAKE MY LEAVE",
+          "hyp": "I thank him, and take my leave.",
+          "errors": 0
+        },
+        {
+          "id": "3729-6852-0034",
+          "ref": "LET A MAN RUN AND EVERYBODY WILL RUN AFTER HIM THE CROWD WILL NOT STOP UNLESS THE MAN IS PROVED TO BE MAD BUT TO PROVE IT IS INDEED A DIFFICULT TASK BECAUSE WE HAVE A CROWD OF MEN WHO MAD FROM THEIR BIRTH ARE STILL CONSIDERED WISE",
+          "hyp": "Let a man run, and everybody will run after him. The crowd will not stop unless the man is proved to be mad. But to prove it is indeed a difficult task, because we have a crowd men who, mad from their birth, are still considered wise.",
+          "errors": 1
+        },
+        {
+          "id": "4077-13751-0000",
+          "ref": "ON THE SIXTH OF APRIL EIGHTEEN THIRTY THE CHURCH OF JESUS CHRIST OF LATTER DAY SAINTS WAS FORMALLY ORGANIZED AND THUS TOOK ON A LEGAL EXISTENCE",
+          "hyp": "On the sixth of april, eighteen thirty, the Church of Jesus Christ of Latter day Saints was formally organized and thus took on a legal existence.",
+          "errors": 0
+        },
+        {
+          "id": "4077-13751-0013",
+          "ref": "THEIR SUFFERINGS HAVE NEVER YET BEEN FITLY CHRONICLED BY HUMAN SCRIBE",
+          "hyp": "Their sufferings have never yet been fitly chronicled by human scribe.",
+          "errors": 0
+        },
+        {
+          "id": "4077-13754-0004",
+          "ref": "ALREADY A NORTH AND A SOUTH WERE TALKED OF WHY NOT SET UP ALSO A WEST",
+          "hyp": "Already a north and a south were talked of. Why not set up also a west?",
+          "errors": 0
+        },
+        {
+          "id": "4446-2271-0000",
+          "ref": "MAINHALL LIKED ALEXANDER BECAUSE HE WAS AN ENGINEER",
+          "hyp": "Mainhol liked Alexander because he was an engineer.",
+          "errors": 1
+        },
+        {
+          "id": "4446-2271-0013",
+          "ref": "DO YOU KNOW I THOUGHT THE DANCE A BIT CONSCIOUS TO NIGHT FOR THE FIRST TIME",
+          "hyp": "You know, I thought the dance a bit conscious tonight. For the first time.",
+          "errors": 3
+        },
+        {
+          "id": "4446-2273-0001",
+          "ref": "THEY ASKED HIM TO COME TO SEE THEM IN CHELSEA AND THEY SPOKE VERY TENDERLY OF HILDA",
+          "hyp": "They asked him to come to see them in Chelsea, and they spoke very tenderly of Hilda.",
+          "errors": 0
+        },
+        {
+          "id": "4446-2273-0014",
+          "ref": "THERE ARE FEW CHANGES IN THE OLD QUARTER",
+          "hyp": "There are a few changes in the old quarter,",
+          "errors": 1
+        },
+        {
+          "id": "4446-2273-0027",
+          "ref": "WHEN SHE FINISHED ALEXANDER SHOOK HIMSELF OUT OF A REVERIE",
+          "hyp": "When she finished, Alexander shook himself out of a reverie.",
+          "errors": 0
+        },
+        {
+          "id": "4446-2275-0004",
+          "ref": "ALEXANDER DID NOT SIT DOWN",
+          "hyp": "Alexander did not sit down,",
+          "errors": 0
+        },
+        {
+          "id": "4446-2275-0017",
+          "ref": "BUT IT'S WORSE NOW IT'S UNBEARABLE",
+          "hyp": "But it's worse now. It's unbearable.",
+          "errors": 0
+        },
+        {
+          "id": "4446-2275-0030",
+          "ref": "YES HILDA I KNOW THAT HE SAID SIMPLY",
+          "hyp": "Yes, Hilda, I know that, he said simply.",
+          "errors": 0
+        },
+        {
+          "id": "4446-2275-0043",
+          "ref": "BARTLEY BENT OVER AND TOOK HER IN HIS ARMS KISSING HER MOUTH AND HER WET TIRED EYES",
+          "hyp": "Bartley bent over and took her in his arms, kissing her mouth and her wet, tired eyes.",
+          "errors": 0
+        },
+        {
+          "id": "4507-16021-0010",
+          "ref": "WE HAVE ALWAYS THOUGHT THAT IT WAS SOMETIMES A COURAGEOUS ACT AND AT LEAST A SIMPLE AND USEFUL DEED WORTHY OF THE SYMPATHETIC ATTENTION WHICH DUTY ACCEPTED AND FULFILLED MERITS",
+          "hyp": "We have always thought that it was sometimes a courageous act, and, at least, a simple and useful deed, worthy of the sympathetic attention which duty accepted and fulfilled merits,",
+          "errors": 0
+        },
+        {
+          "id": "4507-16021-0023",
+          "ref": "THE SUGAR MANUFACTURER WHO SAYS LOAF CLARIFIED LUMPS BASTARD COMMON BURNT THIS HONEST MANUFACTURER TALKS SLANG",
+          "hyp": "The sugar manufacturer who says Loaf, clarified, lumps, bastard, common, burnt this honest manufacturer talks slang.",
+          "errors": 0
+        },
+        {
+          "id": "4507-16021-0036",
+          "ref": "FACTS FORM ONE OF THESE AND IDEAS THE OTHER",
+          "hyp": "facts form one of these, and ideas the other.",
+          "errors": 0
+        },
+        {
+          "id": "4507-16021-0049",
+          "ref": "THERE IS HARDLY ONE DAY OUT OF A HUNDRED WHICH IS WHOLLY JOYOUS AND SUNNY",
+          "hyp": "there is hardly one day out of a hundred, which is wholly joyous and sunny,",
+          "errors": 0
+        },
+        {
+          "id": "4970-29093-0002",
+          "ref": "HE HAS NO TRADITIONS TO BIND HIM OR GUIDE HIM AND HIS IMPULSE IS TO BREAK AWAY FROM THE OCCUPATION HIS FATHER HAS FOLLOWED AND MAKE A NEW WAY FOR HIMSELF",
+          "hyp": "He has no traditions to bind him or guide him, and his impulse is to break away from the occupation his father has followed, and make a new way for himself.",
+          "errors": 0
+        },
+        {
+          "id": "4970-29093-0015",
+          "ref": "YOU CAN BEGIN BY CARRYING A ROD AND PUTTING DOWN THE FIGURES",
+          "hyp": "You can begin by carrying a rod and putting down the figures.",
+          "errors": 0
+        },
+        {
+          "id": "4970-29095-0005",
+          "ref": "THY WAYS GREATLY TRY ME RUTH AND ALL THY RELATIONS",
+          "hyp": "Thy ways greatly try me, Ruth, and all thy relations.",
+          "errors": 0
+        },
+        {
+          "id": "4970-29095-0018",
+          "ref": "RUTH ASKED THE ENTHUSIASTS IF THEY WOULD LIKE TO LIVE IN SUCH A SOUNDING MAUSOLEUM WITH ITS GREAT HALLS AND ECHOING ROOMS AND NO COMFORTABLE PLACE IN IT FOR THE ACCOMMODATION OF ANY BODY",
+          "hyp": "Ruth asked the enthusiasts if they would like to live in such a sounding mausoleum, with its great halls and echoing rooms, and no comfortable place in it for the accommodation of any body.",
+          "errors": 0
+        },
+        {
+          "id": "4970-29095-0031",
+          "ref": "HE DOESN'T SAY EXACTLY WHAT IT IS SAID RUTH A LITTLE DUBIOUSLY BUT IT'S SOMETHING ABOUT LAND AND RAILROADS AND THEE KNOWS FATHER THAT FORTUNES ARE MADE NOBODY KNOWS EXACTLY HOW IN A NEW COUNTRY",
+          "hyp": "He doesn't say exactly what it is, said Ruth, a little dubiously. But it's something about land and railroads, and thee knows, father, that fortunes are made nobody knows exactly how, in a new country.",
+          "errors": 0
+        },
+        {
+          "id": "4992-23283-0005",
+          "ref": "NOT THAT I KNOW OF NOT ONE MORE THAT I KNOW OF HE REPLIED WITH ASTONISHMENT AT WHAT SHE HAD INSINUATED AND YET WITH A PERFECT ASSURANCE THAT SHE WAS IN THE WRONG",
+          "hyp": "Not that I know of, not one more that I know of, he replied, with astonishment at what she had insinuated, and yet with a perfect assurance that she was in the wrong.",
+          "errors": 0
+        },
+        {
+          "id": "4992-23283-0018",
+          "ref": "TO RELIEVE HER FROM BOTH HE LAID HIS HAND WITH FORCE UPON HIS HEART AND SAID DO YOU BELIEVE ME",
+          "hyp": "To relieve her from both, he laid his hand with force upon his heart, and said, Do you believe me?",
+          "errors": 0
+        },
+        {
+          "id": "4992-41797-0010",
+          "ref": "ALWAYS IRRITABLE COLD INDIFFERENT HE HAD GROWN RAPIDLY MORE SO AS YEARS WENT ON",
+          "hyp": "Always irritable, cold, indifferent, he had grown rapidly more so as years went on.",
+          "errors": 0
+        },
+        {
+          "id": "4992-41806-0000",
+          "ref": "NATTY HARMON TRIED THE KITCHEN PUMP SECRETLY SEVERAL TIMES DURING THE EVENING FOR THE WATER HAD TO RUN UP HILL ALL THE WAY FROM THE WELL TO THE KITCHEN SINK AND HE BELIEVED THIS TO BE A CONTINUAL MIRACLE THAT MIGHT GIVE OUT AT ANY MOMENT",
+          "hyp": "Naddie Harmon tried the kitchen pump secretly several times during the evening, for the water had to run uphill all the way from the well to the kitchen sink, and he believed this to be a continual miracle that might give out at any moment.",
+          "errors": 3
+        },
+        {
+          "id": "4992-41806-0013",
+          "ref": "APPROACHING THE DINING TABLE HE CAREFULLY PLACED THE ARTICLE IN THE CENTRE AND REMOVED THE CLOTH",
+          "hyp": "Approaching the dining table he carefully placed the article in the centre and removed the cloth.",
+          "errors": 0
+        },
+        {
+          "id": "5105-28233-0008",
+          "ref": "WHEN A PRIVATE IN THE EIGHTH CAVALRY HE HAD BEEN ON THE POINT OF QUITTING THE ARMY AT TWENTY EIGHT YEARS OF AGE BUT UNEXPECTEDLY HE HAD BEEN APPOINTED ORDERLY TO CAPTAIN SERVADAC",
+          "hyp": "When a private in the eighth Cavalry he had been on the point of quitting the army at twenty eight years of age, but unexpectedly he had been appointed orderly to Captain Cervadac,",
+          "errors": 1
+        },
+        {
+          "id": "5105-28240-0010",
+          "ref": "CAPTAIN SERVADAC HASTENED TOWARDS HIM",
+          "hyp": "Captain Servadac hastened toward him.",
+          "errors": 1
+        },
+        {
+          "id": "5105-28240-0024",
+          "ref": "DOUBTS NOW AROSE AND SOME DISCUSSION FOLLOWED WHETHER OR NOT IT WAS DESIRABLE FOR BEN ZOOF TO ACCOMPANY HIS MASTER",
+          "hyp": "Doub now arose, and some discussion followed, whether or not it was desirable for Ben Zoof to accompany his master.",
+          "errors": 1
+        },
+        {
+          "id": "5105-28241-0012",
+          "ref": "IS IT NOT IMPOSSIBLE HE MURMURED ALOUD THAT ANY CITY SHOULD DISAPPEAR SO COMPLETELY",
+          "hyp": "Is it not impossible, he murmured aloud, that any city should disappear so completely?",
+          "errors": 0
+        },
+        {
+          "id": "5142-33396-0005",
+          "ref": "BUT I STAYED THAT SPRING AND BUILT ME A BOAT",
+          "hyp": "But I stayed that spring and built me a boat.",
+          "errors": 0
+        },
+        {
+          "id": "5142-33396-0018",
+          "ref": "MY DRAGON'S BELLY IS NEVER FULL AND ON BOARD WENT THE GOLD",
+          "hyp": "My dragon's belly is never full, and on board went the gold, and",
+          "errors": 1
+        },
+        {
+          "id": "5142-33396-0031",
+          "ref": "THEY SET UP A CRANE OVER THE FIRE AND HUNG THE POT UPON IT AND WE SAT AND WATCHED IT BOIL WHILE WE JOKED AT LAST THE SUPPER BEGAN",
+          "hyp": "They set up a crane over the fire, and hung the pot upon it, and we sat and watched it boil while we joked. At last the supper began.",
+          "errors": 0
+        },
+        {
+          "id": "5142-33396-0044",
+          "ref": "I AM STIFF WITH LONG SITTING HE SAID I ITCH FOR A FIGHT I TURNED TO THE FARMER",
+          "hyp": "I'm stiff with long sitting, he said. I itch for a fight. I turned to the farmer.",
+          "errors": 2
+        },
+        {
+          "id": "5142-33396-0057",
+          "ref": "WE SUNK HIS SHIP AND MEN BUT HIM WE BROUGHT TO YOU",
+          "hyp": "We sunk his ship and men, but him we brought to you.",
+          "errors": 0
+        },
+        {
+          "id": "5142-36377-0001",
+          "ref": "IN FIVE MINUTES I WAS IN A NEW WORLD AND MY MELANCHOLY ROOM WAS FULL OF THE LIVELIEST FRENCH COMPANY",
+          "hyp": "In five minutes I was in a new world, and my melancholy room was full of the liveliest French company.",
+          "errors": 0
+        },
+        {
+          "id": "5142-36377-0014",
+          "ref": "A PRETTY GIRL AND SO FAR AS I COULD JUDGE BY APPEARANCES A GOOD GIRL TOO DESCRIBING HER GENERALLY I MAY SAY THAT SHE HAD A SMALL HEAD WELL CARRIED AND WELL SET ON HER SHOULDERS BRIGHT GRAY EYES THAT LOOKED AT YOU HONESTLY AND MEANT WHAT THEY LOOKED A TRIM SLIGHT LITTLE FIGURE TOO SLIGHT FOR OUR ENGLISH NOTIONS OF BEAUTY A STRONG AMERICAN ACCENT AND A RARE THING IN AMERICA A PLEASANTLY TONED VOICE WHICH MADE THE ACCENT AGREEABLE TO ENGLISH EARS",
+          "hyp": "A pretty girl, and so far as I could judge by appearances, a good girl, too. Describing her generally, I may say that she had a small head, well carried, and well set on her shoulders, bright gray eyes that looked at you honestly and meant what they looked. A trim, slight little figure too slight for our English notions of beauty, a strong American accent, and, a rare thing in America, a pleasantly toned voice, which made the accent agreeable to English ears.",
+          "errors": 0
+        },
+        {
+          "id": "5142-36586-0001",
+          "ref": "SO IT IS WITH THE LOWER ANIMALS",
+          "hyp": "So it is with the lower animals.",
+          "errors": 0
+        },
+        {
+          "id": "5639-40744-0008",
+          "ref": "WHO TOUCHES ME AM I IN BED",
+          "hyp": "Who touches me? Am I in bed?",
+          "errors": 0
+        },
+        {
+          "id": "5639-40744-0021",
+          "ref": "SHE MEANWHILE PASSED HER LIFE WITH HER PARENTS IN THE STRICTEST RETIREMENT NEVER LETTING HERSELF BE SEEN BUT SHUNNING EVERY EYE LEST IT SHOULD READ HER MISFORTUNE IN HER FACE",
+          "hyp": "She, meanwhile, passed her life with her parents, in the strictest retirement, never letting herself be seen, but shunning every eye lest it should read her misfortune in her face.",
+          "errors": 0
+        },
+        {
+          "id": "5639-40744-0034",
+          "ref": "ALL ROSE TO DO HER REVERENCE AS IF SOMETHING FROM HEAVEN HAD MIRACULOUSLY APPEARED BEFORE THEM BUT GAZING ON HER ENTRANCED WITH ADMIRATION NOT ONE OF THEM WAS ABLE TO ADDRESS A SINGLE WORD TO HER",
+          "hyp": "all rose to do her reverence, as if something from heaven had miraculously appeared before them. But gazing on her, entranced with admiration, not one of them was able to address a single word to her.",
+          "errors": 0
+        },
+        {
+          "id": "5683-32865-0005",
+          "ref": "BUT HER GREETING TO CAPTAIN LAKE WAS MORE THAN USUALLY HAUGHTY AND FROZEN AND HER FEATURES I FANCIED PARTICULARLY PROUD AND PALE",
+          "hyp": "but her greeting to Captain Leake was more than usually haughty and frozen, and her features, I fancied, particularly proud and pale.",
+          "errors": 1
+        },
+        {
+          "id": "5683-32866-0000",
+          "ref": "MISS LAKE DECLINED THE CARRIAGE TO NIGHT",
+          "hyp": "Miss Lake declined the carriage tonight.",
+          "errors": 2
+        },
+        {
+          "id": "5683-32866-0013",
+          "ref": "THERE WAS A BRIGHT MOONLIGHT BROKEN BY THE SHADOWS OF OVERHANGING BOUGHS AND WITHERED LEAVES AND THE MOTTLED LIGHTS AND SHADOWS GLIDED ODDLY ACROSS HIS PALE FEATURES",
+          "hyp": "There was a bright moonlight broken by the shadows of overhanging boughs and withered leaves, and the mottled lights and shadows glided oddly across his pale features.",
+          "errors": 0
+        },
+        {
+          "id": "5683-32866-0026",
+          "ref": "I BOLDLY LIGHTED MY CHEROOT",
+          "hyp": "I boldly lighted my chirut,",
+          "errors": 1
+        },
+        {
+          "id": "5683-32879-0008",
+          "ref": "YOU HAVE BEEN SO ILL MY POOR RACHEL",
+          "hyp": "You have been so ill, my poor Rachel.",
+          "errors": 0
+        },
+        {
+          "id": "5683-32879-0021",
+          "ref": "DORCAS IN HER STRANGE WAY WAS MOVED",
+          "hyp": "Dorcas, in her strange way, was moved.",
+          "errors": 0
+        },
+        {
+          "id": "61-70968-0008",
+          "ref": "TAKE YOUR PLACE AND LET US SEE WHAT THE CRYSTAL CAN SHOW TO YOU",
+          "hyp": "take your place, and let us see what the crystal can show to you.",
+          "errors": 0
+        },
+        {
+          "id": "61-70968-0022",
+          "ref": "TIS FINE FOR YOU TO TALK OLD MAN ANSWERED THE LEAN SULLEN APPRENTICE",
+          "hyp": "'Tis fine for you to talk, old man, answered the lean sullen apprentice,",
+          "errors": 0
+        },
+        {
+          "id": "61-70968-0035",
+          "ref": "TAKING ADVANTAGE OF THIS THE SQUIRE'S FEW MEN REDOUBLED THEIR EFFORTS AND ENCOURAGED BY ROBIN'S AND THE LITTLE STROLLER'S CRIES FOUGHT THEIR WAY TO HIM",
+          "hyp": "Taking advantage of this, the Squire's few men redoubled their efforts and, encouraged by Robins and the little stroller's cries, fought their way to him.",
+          "errors": 1
+        },
+        {
+          "id": "61-70968-0048",
+          "ref": "AND HENRY MIGHT RETURN TO ENGLAND AT ANY MOMENT",
+          "hyp": "and Henry might return to England at any moment.",
+          "errors": 0
+        },
+        {
+          "id": "61-70968-0061",
+          "ref": "YOU ARE A WORTHY LEECH WILL PRESENTLY WHISPERED ROBIN THE WINE HAS WORKED A MARVEL",
+          "hyp": "You are a worthy leech, Will, presently whispered Robin. The wine has worked a marvel.",
+          "errors": 0
+        },
+        {
+          "id": "61-70970-0011",
+          "ref": "AS ANY IN ENGLAND I WOULD SAY SAID GAMEWELL PROUDLY THAT IS IN HIS DAY",
+          "hyp": "As any in England, I would say, said Gamewell proudly. That is, in his day.",
+          "errors": 0
+        },
+        {
+          "id": "61-70970-0024",
+          "ref": "THEY MOVED THEREAFTER CAUTIOUSLY ABOUT THE HUT GROPING BEFORE AND ABOUT THEM TO FIND SOMETHING TO SHOW THAT WARRENTON HAD FULFILLED HIS MISSION",
+          "hyp": "They moved thereafter cautiously about the hut, groping before and about them to find something to show that the Warrington had fulfilled his mission.",
+          "errors": 2
+        },
+        {
+          "id": "61-70970-0037",
+          "ref": "HIS TONES RANG PLEASANTLY ON WARRENTON'S EARS AND FORTHWITH A GOOD FELLOWSHIP WAS HERALDED BETWEEN THEM",
+          "hyp": "His tones rang pleasantly on Warrington's ears, and forthwith a good fellowship was heralded between them,",
+          "errors": 1
+        },
+        {
+          "id": "672-122797-0009",
+          "ref": "HAVE YOU NOT MET THEM ANYWHERE",
+          "hyp": "Have you not met them anywhere?",
+          "errors": 0
+        },
+        {
+          "id": "672-122797-0022",
+          "ref": "THE AXE STRUCK DEEP INTO THE VERY PITH THE TREE FELL TO THE EARTH WITH A SIGH HE FELT A PANG IT WAS LIKE A SWOON HE COULD NOT THINK OF HAPPINESS FOR HE WAS SORROWFUL AT BEING SEPARATED FROM HIS HOME FROM THE PLACE WHERE HE HAD SPRUNG UP",
+          "hyp": "The axe struck deep into the very pit. The tree fell to the earth with a sigh. He felt a pang. It was like a swoon. He could not think of happiness, for he was sorrowful at being separated from his home from the place where he had sprung up.",
+          "errors": 1
+        },
+        {
+          "id": "672-122797-0035",
+          "ref": "BUT I SHALL TELL ONLY ONE STORY",
+          "hyp": "But I shall tell only one story.",
+          "errors": 0
+        },
+        {
+          "id": "672-122797-0049",
+          "ref": "SQUEAK SQUEAK",
+          "hyp": "Squeak, squeak.",
+          "errors": 0
+        },
+        {
+          "id": "672-122797-0062",
+          "ref": "NO SAID THE TREE",
+          "hyp": "No, said the tree.",
+          "errors": 0
+        },
+        {
+          "id": "6829-68769-0000",
+          "ref": "KENNETH AND BETH REFRAINED FROM TELLING THE OTHER GIRLS OR UNCLE JOHN OF OLD WILL ROGERS'S VISIT BUT THEY GOT MISTER WATSON IN THE LIBRARY AND QUESTIONED HIM CLOSELY ABOUT THE PENALTY FOR FORGING A CHECK",
+          "hyp": "Kenneth and Beth refrained from telling the other girls or Uncle John of old Will Rogers' visit, but they got mister Watson in the library and questioned him closely about the penalty for forging a check.",
+          "errors": 1
+        },
+        {
+          "id": "6829-68769-0013",
+          "ref": "MAY WE SEE GATES AT ONCE ASKED KENNETH",
+          "hyp": "Maybe see Gates at once? asked Kenneth.",
+          "errors": 2
+        },
+        {
+          "id": "6829-68769-0026",
+          "ref": "HE SPOKE SIMPLY BUT PACED UP AND DOWN THE NARROW CELL IN FRONT OF THEM",
+          "hyp": "He spoke simply, but paced up and down the narrow cell in front of them.",
+          "errors": 0
+        },
+        {
+          "id": "6829-68769-0039",
+          "ref": "HE LOOKED UP RATHER UNGRACIOUSLY BUT MOTIONED THEM TO BE SEATED",
+          "hyp": "He looked up rather ungraciously, but motioned them to be seated.",
+          "errors": 0
+        },
+        {
+          "id": "6829-68769-0052",
+          "ref": "HE MIGHT HAVE HAD THAT FORGED CHECK FOR THE FACE OF IT IF HE'D BEEN SHARP",
+          "hyp": "He might have had that forge check for the face of it, if he'd been sharp.",
+          "errors": 1
+        },
+        {
+          "id": "6829-68771-0011",
+          "ref": "TABLES WERE SPREAD ON THE LAWN AND A DAINTY BUT SUBSTANTIAL REPAST WAS TO BE SERVED",
+          "hyp": "Tables were spread on the lawn, and a dainty but substantial repast was to be served.",
+          "errors": 0
+        },
+        {
+          "id": "6829-68771-0024",
+          "ref": "FOR THE FIRST TIME THE MAID SEEMED A LITTLE CONFUSED AND HER GAZE WANDERED FROM THE FACE OF HER VISITOR",
+          "hyp": "For the first time the maid seemed a little confused, and her gaze wandered from the face of her visitor.",
+          "errors": 0
+        },
+        {
+          "id": "6930-75918-0000",
+          "ref": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+          "hyp": "Concord returned to its place amidst the tents.",
+          "errors": 0
+        },
+        {
+          "id": "6930-75918-0014",
+          "ref": "BUT CONTINUED RAOUL NOT INTERRUPTED BY THIS MOVEMENT OF HIS FRIEND HEAVEN BE PRAISED THE FRENCH WHO ARE PRONOUNCED TO BE THOUGHTLESS AND INDISCREET RECKLESS EVEN ARE CAPABLE OF BRINGING A CALM AND SOUND JUDGMENT TO BEAR ON MATTERS OF SUCH HIGH IMPORTANCE",
+          "hyp": "But, continued Rao, not interrupted by this movement of his friend, heaven be praised, the French, who are pronounced to be thougless and indiscreet, reckless even, are capable of bringing a calm and sound judgment to bear on matters of such high importance.",
+          "errors": 2
+        },
+        {
+          "id": "6930-76324-0006",
+          "ref": "HERS HAPPENED TO BE IN THE SAME FRAME TOO BUT SHE EVIDENTLY DIDN'T CARE ABOUT THAT",
+          "hyp": "Hers happened to be on the same frame too, but she evidently didn't care about it.",
+          "errors": 2
+        },
+        {
+          "id": "6930-76324-0019",
+          "ref": "NOW LET'S DUST THE FURNITURE AND PICTURES",
+          "hyp": "Now let's dust the furniture and pictures.",
+          "errors": 0
+        },
+        {
+          "id": "6930-81414-0003",
+          "ref": "NO SOUND BROKE THE STILLNESS OF THE NIGHT",
+          "hyp": "No sound broke the stillness of the night,",
+          "errors": 0
+        },
+        {
+          "id": "6930-81414-0016",
+          "ref": "BUT THAT IS KAFFAR'S KNIFE",
+          "hyp": "But that is Caffir's knife.",
+          "errors": 1
+        },
+        {
+          "id": "7021-79730-0001",
+          "ref": "TO SUPPOSE THAT THE OBJECT OF THIS WORK IS TO AID IN EFFECTING SUCH A SUBSTITUTION AS THAT IS ENTIRELY TO MISTAKE ITS NATURE AND DESIGN",
+          "hyp": "To suppose that the object of this work is to aid in effecting such a substitution as that, is entirely to mistake its nature and design,",
+          "errors": 0
+        },
+        {
+          "id": "7021-79740-0004",
+          "ref": "YOU HAVE COME ANDELLA ANDELLA WAS THE NAME OF JANE'S DOLL TO MAKE ROSALIE A VISIT",
+          "hyp": "You have come, Anella Andela was the name of Jane's doll, to make Rosalie a visit,",
+          "errors": 2
+        },
+        {
+          "id": "7021-79759-0002",
+          "ref": "THEY ARE CHIEFLY FORMED FROM COMBINATIONS OF THE IMPRESSIONS MADE IN CHILDHOOD",
+          "hyp": "They are chiefly formed from combinations of the impressions made in childhood.",
+          "errors": 0
+        },
+        {
+          "id": "7021-85628-0009",
+          "ref": "AT THE FARTHER END OF THE LARGEST HALL A TABLE WAS SET WITH GOLDEN CUPS AND GOLDEN PLATES IN LONG ROWS",
+          "hyp": "At the farther end of the largest hall a table was set, with golden cups and golden plates in long rows,",
+          "errors": 0
+        },
+        {
+          "id": "7021-85628-0022",
+          "ref": "AND ALL HIS BROTHERS AND SISTERS STOOD ROUND AND LISTENED WITH THEIR MOUTHS OPEN",
+          "hyp": "and all his brothers and sisters stood round and listened with their mouths open.",
+          "errors": 0
+        },
+        {
+          "id": "7127-75946-0008",
+          "ref": "DOES YOUR MAJESTY THEN NO LONGER BELIEVE THE DISLOYAL ATTEMPT",
+          "hyp": "Does your Majesty, then, no longer believe the disloyal attempt?",
+          "errors": 0
+        },
+        {
+          "id": "7127-75946-0021",
+          "ref": "YES SIRE AND READY DRESSED FOR THE BALLET",
+          "hyp": "Yes, sire. And ready dressed for the ballet.",
+          "errors": 0
+        },
+        {
+          "id": "7127-75947-0004",
+          "ref": "EXPLAIN YOURSELF",
+          "hyp": "Explain yourself.",
+          "errors": 0
+        },
+        {
+          "id": "7127-75947-0017",
+          "ref": "WHAT ALREADY HERE THEY SAID TO HER",
+          "hyp": "What, already here? they said to her.",
+          "errors": 0
+        },
+        {
+          "id": "7127-75947-0030",
+          "ref": "SHE WAS HERE JUST NOW SAID THE COUNT",
+          "hyp": "She was here just now, said the count.",
+          "errors": 0
+        },
+        {
+          "id": "7176-88083-0002",
+          "ref": "HIS FEET WERE RED HIS LONG NARROW BEAK WITH ITS SAW TOOTHED EDGES AND SHARP HOOKED TIP WAS BRIGHT RED",
+          "hyp": "His feet were red, his long, narrow beak, with its sawtoothed edges and sharp hooked tip, was bright red.",
+          "errors": 2
+        },
+        {
+          "id": "7176-88083-0015",
+          "ref": "ALMOST INSTANTLY HE WAS FORCED TO THE TOP",
+          "hyp": "Almost instantly he was forced to the top.",
+          "errors": 0
+        },
+        {
+          "id": "7176-92135-0000",
+          "ref": "HE IS A WELCOME FIGURE AT THE GARDEN PARTIES OF THE ELECT WHO ARE ALWAYS READY TO ENCOURAGE HIM BY ACCEPTING FREE SEATS FOR HIS PLAY ACTOR MANAGERS NOD TO HIM EDITORS ALLOW HIM TO CONTRIBUTE WITHOUT CHARGE TO A SYMPOSIUM ON THE PRICE OF GOLF BALLS",
+          "hyp": "He is a welcome figure at the garden parties of the elect, who are always ready to encourage him by accepting free seats for his play. Actor managers nod to him, editors allow him to contribute, without charge, to a symposium on the price of golf balls.",
+          "errors": 0
+        },
+        {
+          "id": "7176-92135-0013",
+          "ref": "WE MODERNS HOWEVER SEE THE ABSURDITY OF IT",
+          "hyp": "We moderns, however, see the absurdity of it.",
+          "errors": 0
+        },
+        {
+          "id": "7176-92135-0026",
+          "ref": "ENTER HAMLET WITH HIS FAVOURITE BOAR HOUND",
+          "hyp": "Enter Hamlet with his favourite boar hound,",
+          "errors": 0
+        },
+        {
+          "id": "7176-92135-0040",
+          "ref": "HOSTESS REPLACES LUMP AND INCLINES EMPTY TEAPOT OVER TRAY FOR A MOMENT THEN HANDS HIM A CUP PAINTED BROWN INSIDE THUS DECEIVING THE GENTLEMAN WITH THE TELESCOPE IN THE UPPER CIRCLE",
+          "hyp": "Hostess replaces Lump and inclines empty teapot over tray for a moment, then hands him a cup painted brown inside, thus deceiving the gentleman with the telescope in the upper circle.",
+          "errors": 0
+        },
+        {
+          "id": "7729-102255-0007",
+          "ref": "HIS RECEPTION SPEECH AT WESTPORT IN WHICH HE MAINTAINED THE LEGALITY OF THE LEGISLATURE AND HIS DETERMINATION TO ENFORCE THEIR LAWS DELIGHTED HIS PRO SLAVERY AUDITORS",
+          "hyp": "his reception speech at Westport, in which he maintained the legality of the legislature, and his determination to enforce their laws delighted his pro slavery auditors.",
+          "errors": 0
+        },
+        {
+          "id": "7729-102255-0020",
+          "ref": "THE INCIDENT WAS NOT VIOLENT NOR EVEN DRAMATIC NO POSSE WAS SUMMONED NO FURTHER EFFORT MADE AND REEDER FEARING PERSONAL VIOLENCE SOON FLED IN DISGUISE",
+          "hyp": "The incident was not violent, nor even dramatic, no posse was summoned, no further effort made, and Reader, fearing personal violence, soon fled in disguise.",
+          "errors": 1
+        },
+        {
+          "id": "7729-102255-0033",
+          "ref": "AS HE HAD PROMISED TO PROTECT THE HOTEL THE REASSURED CITIZENS BEGAN TO LAUGH AT THEIR OWN FEARS",
+          "hyp": "As he had promised to protect the hotel, the reassured citizens began to laugh at their own fears.",
+          "errors": 0
+        },
+        {
+          "id": "7729-102255-0046",
+          "ref": "IN THE EARLY MORNING OF THE NEXT DAY MAY TWENTY NINTH A COMPANY OF DRAGOONS WITH ONE EMPTY SADDLE CAME DOWN FROM THE FORT AND WHILE THE PRO SLAVERY MEN STILL SLEPT THE PRISONER AND HIS ESCORT WERE ON THEIR WAY ACROSS THE PRAIRIES TO LECOMPTON IN THE CHARGE OF OFFICERS OF THE UNITED STATES ARMY",
+          "hyp": "In the early morning of the next day, may twenty ninth, a company of dragoons with one empty saddle came down from the fort, and while the pro slavery men still slept, the prisoner and his escort were on their way across the prairies to Lecompton, in the charge of officers of the United States Army.",
+          "errors": 0
+        },
+        {
+          "id": "8224-274381-0012",
+          "ref": "MONTROSE WEAK IN CAVALRY HERE LINED HIS TROOPS OF HORSE WITH INFANTRY AND AFTER PUTTING THE ENEMY'S HORSE TO ROUT FELL WITH UNITED FORCE UPON THEIR FOOT WHO WERE ENTIRELY CUT IN PIECES THOUGH WITH THE LOSS OF THE GALLANT LORD GORDON ON THE PART OF THE ROYALISTS",
+          "hyp": "Montrose, weak in cavalry, here lined his troops of horse with infantry, and after putting the enemy's horse to rout, fell with united force upon their foot, who were entirely cut in pieces, though with the loss of the gallant Lord Gordon on the part of the royalists.",
+          "errors": 0
+        },
+        {
+          "id": "8224-274384-0007",
+          "ref": "HAVE MERCY LORD ON ME I PRAY FOR MEN WOULD ME DEVOUR",
+          "hyp": "Have mercy, Lord, on me I pray, For men would me devour.",
+          "errors": 0
+        },
+        {
+          "id": "8230-279154-0006",
+          "ref": "THE BEHAVIOURIST WHO ATTEMPTS TO MAKE PSYCHOLOGY A RECORD OF BEHAVIOUR HAS TO TRUST HIS MEMORY IN MAKING THE RECORD",
+          "hyp": "The behaviorist, who attempts to make psychology a record of behavior, has to trust his memory in making the record.",
+          "errors": 2
+        },
+        {
+          "id": "8230-279154-0019",
+          "ref": "IT WOULD SEEM THAT ONLY RATHER RECENT EVENTS CAN BE PLACED AT ALL ACCURATELY BY MEANS OF FEELINGS GIVING THEIR TEMPORAL RELATION TO THE PRESENT BUT IT IS CLEAR THAT SUCH FEELINGS MUST PLAY AN ESSENTIAL PART IN THE PROCESS OF DATING REMEMBERED EVENTS",
+          "hyp": "It would seem that only rather recent events can be placed at all accurately by means of feelings giving their temporal relation to the present. But it is clear that such feelings must play an essential part in the process of dating remembered events.",
+          "errors": 0
+        },
+        {
+          "id": "8230-279154-0032",
+          "ref": "IT IS THIS THAT IS OF INTEREST TO THEORY OF KNOWLEDGE",
+          "hyp": "It is this that is of interest to theory of knowledge.",
+          "errors": 0
+        },
+        {
+          "id": "8455-210777-0002",
+          "ref": "ON ARRIVING AT HOME AT MY OWN RESIDENCE I FOUND THAT OUR SALON WAS FILLED WITH A BRILLIANT COMPANY",
+          "hyp": "On arriving at home at my own residence, I found that our salon was filled with a brilliant company.",
+          "errors": 0
+        },
+        {
+          "id": "8455-210777-0015",
+          "ref": "I AND MY WIFE AND SON AND THE TWO CRASWELLERS AND THREE OR FOUR OTHERS AGREED TO DINE ON BOARD THE SHIP ON THE NEXT",
+          "hyp": "I, and my wife and son, and the two Cresswellers, and three or four others, agreed to dine on board the ship on the next.",
+          "errors": 1
+        },
+        {
+          "id": "8455-210777-0028",
+          "ref": "JACK WOULD BECOME EVA'S HAPPY HUSBAND AND WOULD REMAIN AMIDST THE HURRIED DUTIES OF THE EAGER WORLD",
+          "hyp": "Jack would become Eva's happy husband, and would remain amidst the hurried duties of the eager world.",
+          "errors": 0
+        },
+        {
+          "id": "8455-210777-0041",
+          "ref": "THERE CAME UPON ME A SUDDEN SHOCK WHEN I HEARD THESE WORDS WHICH EXCEEDED ANYTHING WHICH I HAD YET FELT",
+          "hyp": "There came upon me a sudden shock when I heard these words, which exceeded anything which I had yet felt,",
+          "errors": 0
+        },
+        {
+          "id": "8455-210777-0054",
+          "ref": "THE LETTER RAN AS FOLLOWS",
+          "hyp": "The letter ran as follows.",
+          "errors": 0
+        },
+        {
+          "id": "8455-210777-0067",
+          "ref": "OR OF THE HABITS OF OUR PEOPLE IT IS QUITE IMPOSSIBLE",
+          "hyp": "or of the habits of our people. It is quite impossible.",
+          "errors": 0
+        },
+        {
+          "id": "8463-287645-0009",
+          "ref": "I NEVER KNEW OF BUT ONE MAN WHO COULD EVER PLEASE HIM",
+          "hyp": "I never knew of but one man who could ever please him.",
+          "errors": 0
+        },
+        {
+          "id": "8463-294825-0007",
+          "ref": "EVEN THE SUPPORTING CAST IS SHREWDLY DRAWN PROFESSOR ARONNAX THE CAREER SCIENTIST CAUGHT IN AN ETHICAL CONFLICT CONSEIL THE COMPULSIVE CLASSIFIER WHO SUPPLIES HUMOROUS TAG LINES FOR VERNE'S FAST FACTS THE HARPOONER NED LAND A CREATURE OF CONSTANT APPETITES MAN AS HEROIC ANIMAL",
+          "hyp": "Even the supporting cast is shrewd drawn. Professor Aranac, the career scientist caught in an ethical conflict. Conseil, the compulsive classifier, who supplies humorous tag lines for Vern's fast facts. The harpooner Ned Land, a creature of constant appetites, man as heroic animal.",
+          "errors": 3
+        },
+        {
+          "id": "8463-294828-0000",
+          "ref": "CHAPTER THREE AS MASTER WISHES",
+          "hyp": "CHAPTER three. AS MASTER WISE",
+          "errors": 1
+        },
+        {
+          "id": "8463-294828-0013",
+          "ref": "HE WAS A FANATIC ON FORMALITY AND HE ONLY ADDRESSED ME IN THE THIRD PERSON TO THE POINT WHERE IT GOT TIRESOME",
+          "hyp": "He was a fanatic on formality, and he only addressed me in the third person, to the point where it got tiresome.",
+          "errors": 0
+        },
+        {
+          "id": "8463-294828-0027",
+          "ref": "I LEFT INSTRUCTIONS FOR SHIPPING MY CONTAINERS OF STUFFED ANIMALS AND DRIED PLANTS TO PARIS FRANCE",
+          "hyp": "I left instructions for shipping my containers of stuffed animals and dried plants to Paris, France.",
+          "errors": 0
+        },
+        {
+          "id": "8555-284447-0001",
+          "ref": "HOLD HIM FAST MY MEN AND AS SOON AS I'VE HAD MY COFFEE AND OATMEAL I'LL TAKE HIM TO THE ROOM OF THE GREAT KNIFE AND PATCH HIM",
+          "hyp": "Hold him fast to my men, and as soon as I've had my coffee and oatmeal, I'll take him to the room of the great knife, and patch him.",
+          "errors": 1
+        },
+        {
+          "id": "8555-284447-0014",
+          "ref": "THE IDEA OF PATCHING CAP'N BILL TO A GOAT WAS VASTLY AMUSING TO HIM AND THE MORE HE THOUGHT OF IT THE MORE HE ROARED WITH LAUGHTER",
+          "hyp": "The idea of patching Captain Bill to a goat was vastly amus to him, and the more he thought of it, the more he roared with laughter.",
+          "errors": 2
+        },
+        {
+          "id": "8555-284449-0002",
+          "ref": "AT THE HEAD OF THE PINKIES WERE GHIP GHISIZZLE AND BUTTON BRIGHT WHO HAD THE PARROT ON HIS SHOULDER AND THEY WERE SUPPORTED BY CAPTAIN CORALIE AND CAPTAIN TINTINT AND ROSALIE THE WITCH",
+          "hyp": "At the head of the Pinkies were Gipgizzle and Button Bright, who had the parrot on his shoulder, and they were supported by Captain Coralie, and Captain Tintant, and Rosalie the witch.",
+          "errors": 3
+        },
+        {
+          "id": "8555-284449-0015",
+          "ref": "I'LL NOT BE WICKED ANY MORE SIGHED THE OLD BOOLOOROO I'LL REFORM",
+          "hyp": "Ha not be wicked any more, sighed the old Bularo. I'll reform",
+          "errors": 2
+        },
+        {
+          "id": "8555-292519-0007",
+          "ref": "IT IS MY HEART HUNG IN THE SKY AND NO CLOUDS EVER FLOAT BETWEEN THE GRAVE FLOWERS AND MY HEART ON HIGH",
+          "hyp": "It is my heart hung in the sky, And no clouds ever float between the grave flowers and my heart on high.",
+          "errors": 0
+        },
+        {
+          "id": "908-157963-0004",
+          "ref": "THEL IS LIKE A WATRY BOW AND LIKE A PARTING CLOUD LIKE A REFLECTION IN A GLASS LIKE SHADOWS IN THE WATER LIKE DREAMS OF INFANTS LIKE A SMILE UPON AN INFANTS FACE",
+          "hyp": "Thel is like a watery bow, and like a parting cloud, like a reflection in a glass, like shadows in the water, like dreams of infants, like a smile upon an infant's face.",
+          "errors": 2
+        },
+        {
+          "id": "908-157963-0017",
+          "ref": "THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D",
+          "hyp": "The cloud then showed his golden head, and his bright form emerged.",
+          "errors": 2
+        },
+        {
+          "id": "908-157963-0030",
+          "ref": "WHY AN EAR A WHIRLPOOL FIERCE TO DRAW CREATIONS IN",
+          "hyp": "Why an ear, a whirlpool, fierce to draw creations in?",
+          "errors": 0
+        },
+        {
+          "id": "908-31957-0012",
+          "ref": "IF HE TO KEEP ONE OATH MUST LOSE ONE JOY BY HIS LIFE'S STAR FORETOLD",
+          "hyp": "if he, to keep one oath, Must lose one joy By his life's star foretold.",
+          "errors": 0
+        }
+      ]
+    },
+    "faster-whisper-small-int8": {
+      "wer": 0.0347,
+      "substitutions": 104,
+      "deletions": 12,
+      "insertions": 21,
+      "ref_words": 3951,
+      "rtf": 0.2078,
+      "compute_s": 302.03,
+      "load_s": 12.74,
+      "threads": 4,
+      "utterances_with_errors": 72,
+      "rows": [
+        {
+          "id": "1089-134686-0000",
+          "ref": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE",
+          "hyp": "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick, peppered, flour-fattened sauce.",
+          "errors": 0
+        },
+        {
+          "id": "1089-134686-0013",
+          "ref": "IF EVER HE WAS IMPELLED TO CAST SIN FROM HIM AND TO REPENT THE IMPULSE THAT MOVED HIM WAS THE WISH TO BE HER KNIGHT",
+          "hyp": "If ever he was impelled to cast sin from him and to repent, the impulse that moved him was the wish to be her knight.",
+          "errors": 0
+        },
+        {
+          "id": "1089-134686-0026",
+          "ref": "THE RECTOR DID NOT ASK FOR A CATECHISM TO HEAR THE LESSON FROM",
+          "hyp": "The rector did not ask for a catechism to hear the lesson from.",
+          "errors": 0
+        },
+        {
+          "id": "1089-134691-0001",
+          "ref": "FOR A FULL HOUR HE HAD PACED UP AND DOWN WAITING BUT HE COULD WAIT NO LONGER",
+          "hyp": "For a full hour he had paced up and down waiting, but he could wait no longer.",
+          "errors": 0
+        },
+        {
+          "id": "1089-134691-0014",
+          "ref": "THE PHRASE AND THE DAY AND THE SCENE HARMONIZED IN A CHORD",
+          "hyp": "The phrase and the day and the scene harmonized in accord.",
+          "errors": 2
+        },
+        {
+          "id": "1188-133604-0001",
+          "ref": "THEY UNITE EVERY QUALITY AND SOMETIMES YOU WILL FIND ME REFERRING TO THEM AS COLORISTS SOMETIMES AS CHIAROSCURISTS",
+          "hyp": "They unite every quality. And sometimes you will find me referring to them as colorists, sometimes as chiaroscurists.",
+          "errors": 0
+        },
+        {
+          "id": "1188-133604-0014",
+          "ref": "DO NOT THEREFORE THINK THAT THE GOTHIC SCHOOL IS AN EASY ONE",
+          "hyp": "Do not, therefore, think that the Gothic school is an easy one.",
+          "errors": 0
+        },
+        {
+          "id": "1188-133604-0027",
+          "ref": "NOW HERE IS RAPHAEL EXACTLY BETWEEN THE TWO TREES STILL DRAWN LEAF BY LEAF WHOLLY FORMAL BUT BEAUTIFUL MIST COMING GRADUALLY INTO THE DISTANCE",
+          "hyp": "Now here is Raphael. Exactly between the two, trees still drawn leaf by leaf, wholly formal, but beautiful mist coming gradually into the distance.",
+          "errors": 0
+        },
+        {
+          "id": "1188-133604-0040",
+          "ref": "THE CRAMPNESS AND THE POVERTY ARE ALL INTENDED",
+          "hyp": "The crampness and the poverty are all intended.",
+          "errors": 0
+        },
+        {
+          "id": "121-121726-0008",
+          "ref": "HOSE MAN'S EXCUSE FOR WETTING THE WALK",
+          "hyp": "hose man's excuse for wetting the walk",
+          "errors": 0
+        },
+        {
+          "id": "121-123859-0002",
+          "ref": "BUT RECKONING TIME WHOSE MILLION'D ACCIDENTS CREEP IN TWIXT VOWS AND CHANGE DECREES OF KINGS TAN SACRED BEAUTY BLUNT THE SHARP'ST INTENTS DIVERT STRONG MINDS TO THE COURSE OF ALTERING THINGS ALAS WHY FEARING OF TIME'S TYRANNY MIGHT I NOT THEN SAY NOW I LOVE YOU BEST WHEN I WAS CERTAIN O'ER INCERTAINTY CROWNING THE PRESENT DOUBTING OF THE REST",
+          "hyp": "But reckoning time, whose millioned accidents creep in, twixt vows, and change decrees of kings, Tan's sacred beauty, blunt, the sharpest intents, divert strong minds to the course of altering things, alas, why fearing of time's tyranny, might I not then say, now I love you best? When I was certain or in certainty, crowning the present, doubting of the rest,",
+          "errors": 6
+        },
+        {
+          "id": "121-127105-0010",
+          "ref": "SHE SENT ME THE PAGES IN QUESTION BEFORE SHE DIED",
+          "hyp": "She sent me the pages in question before she died.",
+          "errors": 0
+        },
+        {
+          "id": "121-127105-0023",
+          "ref": "LET ME SAY HERE DISTINCTLY TO HAVE DONE WITH IT THAT THIS NARRATIVE FROM AN EXACT TRANSCRIPT OF MY OWN MADE MUCH LATER IS WHAT I SHALL PRESENTLY GIVE",
+          "hyp": "Let me say here distinctly to have done with it that this narrative, from an exact transcript of my own made much later, is what I shall presently give.",
+          "errors": 0
+        },
+        {
+          "id": "121-127105-0036",
+          "ref": "BUT WAS THAT ALL HER REWARD ONE OF THE LADIES ASKED",
+          "hyp": "But was that all her reward? One of the ladies asked.",
+          "errors": 0
+        },
+        {
+          "id": "1221-135766-0012",
+          "ref": "BROODING OVER ALL THESE MATTERS THE MOTHER FELT LIKE ONE WHO HAS EVOKED A SPIRIT BUT BY SOME IRREGULARITY IN THE PROCESS OF CONJURATION HAS FAILED TO WIN THE MASTER WORD THAT SHOULD CONTROL THIS NEW AND INCOMPREHENSIBLE INTELLIGENCE",
+          "hyp": "Brewting over all these matters, the mother felt like one who has evoked a spirit, but by some irregularity in the process of conjuration has failed to win the master word that should control this new and incomprehensible intelligence.",
+          "errors": 1
+        },
+        {
+          "id": "1221-135767-0009",
+          "ref": "BUT PEARL WHO WAS A DAUNTLESS CHILD AFTER FROWNING STAMPING HER FOOT AND SHAKING HER LITTLE HAND WITH A VARIETY OF THREATENING GESTURES SUDDENLY MADE A RUSH AT THE KNOT OF HER ENEMIES AND PUT THEM ALL TO FLIGHT",
+          "hyp": "But Pearl, who was a dauntless child, after frowning, stamping her foot and shaking her little hand with a variety of threatening gestures, suddenly made a rush at the knot of her enemies and put them all to flight.",
+          "errors": 0
+        },
+        {
+          "id": "1221-135767-0022",
+          "ref": "BUT THE PROPRIETOR APPEARED ALREADY TO HAVE RELINQUISHED AS HOPELESS THE EFFORT TO PERPETUATE ON THIS SIDE OF THE ATLANTIC IN A HARD SOIL AND AMID THE CLOSE STRUGGLE FOR SUBSISTENCE THE NATIVE ENGLISH TASTE FOR ORNAMENTAL GARDENING",
+          "hyp": "But the proprietor appeared already to have relinquished as hopeless the effort to perpetuate on this side of the Atlantic in a hard soil, and amid the close struggle for subsistence, the native English taste for ornamental gardening.",
+          "errors": 0
+        },
+        {
+          "id": "1284-1180-0010",
+          "ref": "UNC KNOCKED AT THE DOOR OF THE HOUSE AND A CHUBBY PLEASANT FACED WOMAN DRESSED ALL IN BLUE OPENED IT AND GREETED THE VISITORS WITH A SMILE",
+          "hyp": "Ankh knocked at the door of the house, and a chubby, pleasant-faced woman, dressed all in blue, opened it, and greeted the visitors with a smile.",
+          "errors": 1
+        },
+        {
+          "id": "1284-1180-0023",
+          "ref": "YOU SEE I'VE LIVED ALL MY LIFE WITH UNC NUNKIE THE SILENT ONE AND THERE WAS NO ONE TO TELL ME ANYTHING",
+          "hyp": "You see, I've lived all my life with Uncle Nunky, the silent one, and there was no one to tell me anything.",
+          "errors": 2
+        },
+        {
+          "id": "1284-1181-0003",
+          "ref": "THE HAIR WAS OF BROWN YARN AND HUNG DOWN ON HER NECK IN SEVERAL NEAT BRAIDS",
+          "hyp": "The hair was of brown yarn and hung down on her neck in several neat braids.",
+          "errors": 0
+        },
+        {
+          "id": "1284-1181-0017",
+          "ref": "THE WIZARD OF OZ WHO USED TO BE A HUMBUG AND KNEW NO MAGIC AT ALL HAS BEEN TAKING LESSONS OF GLINDA AND I'M TOLD HE IS GETTING TO BE A PRETTY GOOD WIZARD BUT HE IS MERELY THE ASSISTANT OF THE GREAT SORCERESS",
+          "hyp": "The Wizard of Oz, who used to be a humbug and knew no magic at all, has been taking lessons of Glenda, and I'm told he is getting to be a pretty good wizard. But he is merely the assistant of the great sorcerers.",
+          "errors": 2
+        },
+        {
+          "id": "1320-122612-0000",
+          "ref": "SINCE THE PERIOD OF OUR TALE THE ACTIVE SPIRIT OF THE COUNTRY HAS SURROUNDED IT WITH A BELT OF RICH AND THRIVING SETTLEMENTS THOUGH NONE BUT THE HUNTER OR THE SAVAGE IS EVER KNOWN EVEN NOW TO PENETRATE ITS WILD RECESSES",
+          "hyp": "Since the period of our tale, the active spirit of the country has surrounded it with a belt of rich and thriving settlements, though none but the hunter or the savage is ever known even now to penetrate its wild recesses.",
+          "errors": 0
+        },
+        {
+          "id": "1320-122612-0013",
+          "ref": "A CIRCLE OF A FEW HUNDRED FEET IN CIRCUMFERENCE WAS DRAWN AND EACH OF THE PARTY TOOK A SEGMENT FOR HIS PORTION",
+          "hyp": "A circle of a few hundred feet in circumference was drawn, and each of the party took a segment for his portion.",
+          "errors": 0
+        },
+        {
+          "id": "1320-122617-0009",
+          "ref": "I GREATLY MOURN THAT ONE SO WELL DISPOSED SHOULD DIE IN HIS IGNORANCE AND I HAVE SOUGHT A GOODLY HYMN CAN YOU LEAD ME TO HIM",
+          "hyp": "I greatly mourn that one so well-disposed should die in his ignorance, and I have sought her goodly him. Can you lead me to him?\"",
+          "errors": 2
+        },
+        {
+          "id": "1320-122617-0022",
+          "ref": "THE DELAWARES ARE CHILDREN OF THE TORTOISE AND THEY OUTSTRIP THE DEER",
+          "hyp": "The Delaware's are children of the tortoise and they outstrip the deer.",
+          "errors": 1
+        },
+        {
+          "id": "1320-122617-0035",
+          "ref": "THEN HEAVING A HEAVY SIGH PROBABLY AMONG THE LAST HE EVER DREW IN PINING FOR A CONDITION HE HAD SO LONG ABANDONED HE ADDED IT IS WHAT I WOULD WISH TO PRACTISE MYSELF AS ONE WITHOUT A CROSS OF BLOOD THOUGH IT IS NOT ALWAYS EASY TO DEAL WITH AN INDIAN AS YOU WOULD WITH A FELLOW CHRISTIAN",
+          "hyp": "Then, heaving a heavy sigh, probably among the last he ever drew, in pining for a condition he had so long abandoned, he added, It is what I would wish to practice myself, as one without a cross of blood, though it is not always easy to deal with an Indian as you would with a fellow Christian. Thank you.",
+          "errors": 3
+        },
+        {
+          "id": "1580-141083-0006",
+          "ref": "THE ONLY DUPLICATE WHICH EXISTED SO FAR AS I KNEW WAS THAT WHICH BELONGED TO MY SERVANT BANNISTER A MAN WHO HAS LOOKED AFTER MY ROOM FOR TEN YEARS AND WHOSE HONESTY IS ABSOLUTELY ABOVE SUSPICION",
+          "hyp": "The only duplicate which existed so far as I knew was that which belonged to my servant, Bannister, a man who has looked after my room for ten years and whose honesty is absolutely above suspicion.",
+          "errors": 0
+        },
+        {
+          "id": "1580-141083-0019",
+          "ref": "ABOVE WERE THREE STUDENTS ONE ON EACH STORY",
+          "hyp": "Above were three students, one on each story.",
+          "errors": 0
+        },
+        {
+          "id": "1580-141083-0032",
+          "ref": "WATSON I HAVE ALWAYS DONE YOU AN INJUSTICE THERE ARE OTHERS",
+          "hyp": "Watson, I have always done you an injustice. There are others.",
+          "errors": 0
+        },
+        {
+          "id": "1580-141083-0045",
+          "ref": "HE WAS STILL SUFFERING FROM THIS SUDDEN DISTURBANCE OF THE QUIET ROUTINE OF HIS LIFE",
+          "hyp": "He was still suffering from the sudden disturbance of the quiet routine of his life.",
+          "errors": 1
+        },
+        {
+          "id": "1580-141084-0005",
+          "ref": "THAT IS VERY IMPORTANT SAID HOLMES",
+          "hyp": "That is very important at Holmes.",
+          "errors": 1
+        },
+        {
+          "id": "1580-141084-0018",
+          "ref": "I THINK SO YOU HAVE FORMED A CONCLUSION",
+          "hyp": "I think so. You have formed a conclusion.",
+          "errors": 0
+        },
+        {
+          "id": "1580-141084-0031",
+          "ref": "WE WANT TO KNOW MISTER GILCHRIST HOW YOU AN HONOURABLE MAN EVER CAME TO COMMIT SUCH AN ACTION AS THAT OF YESTERDAY",
+          "hyp": "We want to know, Mr. Gilchrist, how you, an honorable man, ever came to commit such an action as that of yesterday.",
+          "errors": 2
+        },
+        {
+          "id": "1580-141084-0044",
+          "ref": "GLOVES SAID THE YOUNG MAN",
+          "hyp": "Gloves, said the young man.",
+          "errors": 0
+        },
+        {
+          "id": "1995-1826-0006",
+          "ref": "BEEN LOOKING UP TOOMS COUNTY",
+          "hyp": "been looking up Toomes County.",
+          "errors": 1
+        },
+        {
+          "id": "1995-1826-0019",
+          "ref": "COTTON IS A WONDERFUL THING IS IT NOT BOYS SHE SAID RATHER PRIMLY",
+          "hyp": "Cotton is a wonderful thing, is it not, boys? She said rather primly.",
+          "errors": 0
+        },
+        {
+          "id": "1995-1836-0005",
+          "ref": "MISSUS GREY HAD MET SOUTHERNERS BEFORE BUT NOT INTIMATELY AND SHE ALWAYS HAD IN MIND VIVIDLY THEIR CRUELTY TO POOR NEGROES A SUBJECT SHE MADE A POINT OF INTRODUCING FORTHWITH",
+          "hyp": "Mrs. Gray had met Southerners before but not intimately and she always had in mind vividly their cruelty to poor Negroes. A subject she made a point of introducing forthwith.",
+          "errors": 2
+        },
+        {
+          "id": "1995-1837-0003",
+          "ref": "THE REVELATION OF HIS LOVE LIGHTED AND BRIGHTENED SLOWLY TILL IT FLAMED LIKE A SUNRISE OVER HIM AND LEFT HIM IN BURNING WONDER",
+          "hyp": "The revelation of his love lighted and brightened slowly till it flamed like a sunrise over him and left him in burning wonder.",
+          "errors": 0
+        },
+        {
+          "id": "1995-1837-0016",
+          "ref": "FOR ONE LONG MOMENT HE PAUSED STUPID AGAPE WITH UTTER AMAZEMENT THEN LEANED DIZZILY AGAINST A TREE",
+          "hyp": "For one long moment he passed, stupid, agape, with utter amazement, then leaned dizzily against the tree.",
+          "errors": 2
+        },
+        {
+          "id": "1995-1837-0029",
+          "ref": "HE DARTED THROUGH THE TREES AND PAUSED A TALL MAN STRONGLY BUT SLIMLY MADE",
+          "hyp": "He darted through the trees and paused, a tall man strongly but slimly made.",
+          "errors": 0
+        },
+        {
+          "id": "2094-142345-0013",
+          "ref": "HER TONGUE WAS NOT LESS KEEN THAN HER EYE AND WHENEVER A DAMSEL CAME WITHIN EARSHOT SEEMED TO TAKE UP AN UNFINISHED LECTURE AS A BARREL ORGAN TAKES UP A TUNE PRECISELY AT THE POINT WHERE IT HAD LEFT OFF",
+          "hyp": "Her tongue was not less keen than her eye, and whenever a damsel came within your shot, seemed to take up an unfinished lecture, as a barrel organ takes up a tune precisely at the point where it had left off.",
+          "errors": 2
+        },
+        {
+          "id": "2094-142345-0026",
+          "ref": "SHE'S GOING TO PUT THE IRONING THINGS AWAY",
+          "hyp": "She's going to put the ironing things away.",
+          "errors": 0
+        },
+        {
+          "id": "2094-142345-0039",
+          "ref": "I'VE STRONG ASSURANCE THAT NO EVIL WILL HAPPEN TO YOU AND MY UNCLE AND THE CHILDREN FROM ANYTHING I'VE DONE",
+          "hyp": "I have strong assurance that no evil will happen to you and my uncle and the children from anything I have done.",
+          "errors": 4
+        },
+        {
+          "id": "2094-142345-0052",
+          "ref": "I MUST COME ANOTHER DAY AND SEE YOUR HUSBAND I WANT TO HAVE A CONSULTATION WITH HIM ABOUT HORSES",
+          "hyp": "I must come another day and see your husband. I want to have a consultation with him about horses.",
+          "errors": 0
+        },
+        {
+          "id": "2300-131720-0004",
+          "ref": "OWING TO HIS INSISTENCE ON LOW PRESSURE DIRECT CURRENT FOR USE IN DENSELY POPULATED DISTRICTS AS THE ONLY SAFE AND TRULY UNIVERSAL PROFITABLE WAY OF DELIVERING ELECTRICAL ENERGY TO THE CONSUMERS EDISON HAS BEEN FREQUENTLY SPOKEN OF AS AN OPPONENT OF THE ALTERNATING CURRENT",
+          "hyp": "Owing to his insistence on low pressure, direct current for use in densely populated districts as the only safe and truly universal, profitable way of delivering electrical energy to the consumers, Edison has been frequently spoken of as an opponent of the alternating current.",
+          "errors": 0
+        },
+        {
+          "id": "2300-131720-0017",
+          "ref": "EDISON HAD INSTALLED HIS HISTORIC FIRST GREAT CENTRAL STATION SYSTEM IN NEW YORK ON THE MULTIPLE ARC SYSTEM COVERED BY HIS FEEDER AND MAIN INVENTION WHICH RESULTED IN A NOTABLE SAVING IN THE COST OF CONDUCTORS AS AGAINST A STRAIGHT TWO WIRE SYSTEM THROUGHOUT OF THE TREE KIND",
+          "hyp": "Edison had installed his historic first great central station system in New York on the multiple arc system covered by his feeder and main invention, which resulted in a notable saving in the cost of conductors as against a straight two-wire system throughout of the tree kind.",
+          "errors": 0
+        },
+        {
+          "id": "2300-131720-0030",
+          "ref": "THE PRINCIPLE EMPLOYED IN THE EDISON ELECTROLYTIC METER IS THAT WHICH EXEMPLIFIES THE POWER OF ELECTRICITY TO DECOMPOSE A CHEMICAL SUBSTANCE",
+          "hyp": "The principle employed in the Edison electrolytic meter is that which exemplifies the power of electricity to decompose a chemical substance.",
+          "errors": 0
+        },
+        {
+          "id": "237-126133-0001",
+          "ref": "EVERY CHANCE SHE COULD STEAL AFTER PRACTICE HOURS WERE OVER AND AFTER THE CLAMOROUS DEMANDS OF THE BOYS UPON HER TIME WERE FULLY SATISFIED WAS SEIZED TO FLY ON THE WINGS OF THE WIND TO THE FLOWERS",
+          "hyp": "Every chance she could steal after practice hours were over, and after the clamorous demands of the boys upon her time were fully satisfied, was seized to fly on the wings of the wind to the flowers.",
+          "errors": 0
+        },
+        {
+          "id": "237-126133-0014",
+          "ref": "ASKED PHRONSIE IN INTENSE INTEREST SLIPPING DOWN OUT OF POLLY'S ARMS AND CROWDING UP CLOSE TO JASPER'S SIDE",
+          "hyp": "Asked Franzi, in intense interest slipping down out of Pauley's arms and crowding up close to Jasper's side.",
+          "errors": 2
+        },
+        {
+          "id": "237-134493-0001",
+          "ref": "HIS WIFE NOW LIES BESIDE HIM AND THE WHITE SHAFT THAT MARKS THEIR GRAVES GLEAMS ACROSS THE WHEAT FIELDS",
+          "hyp": "His wife now lies beside him, and the white shaft that marks their graves gleams across the wheat fields.",
+          "errors": 0
+        },
+        {
+          "id": "237-134493-0015",
+          "ref": "THERE WAS SOMETHING INDIVIDUAL ABOUT THE GREAT FARM A MOST UNUSUAL TRIMNESS AND CARE FOR DETAIL",
+          "hyp": "There was something individual about the Great Farm, a most unusual trim-ness and care for detail.",
+          "errors": 2
+        },
+        {
+          "id": "237-134500-0009",
+          "ref": "I SUPPOSE THAT'S THE WET SEASON TOO THEN",
+          "hyp": "I suppose that's the wet season too then.",
+          "errors": 0
+        },
+        {
+          "id": "237-134500-0022",
+          "ref": "WHEN SHE USED TO TELL ME ABOUT HIM I ALWAYS WONDERED WHETHER SHE WASN'T A LITTLE IN LOVE WITH HIM",
+          "hyp": "When she used to tell me about him, I always wondered whether she wasn't a little in love with him.",
+          "errors": 0
+        },
+        {
+          "id": "237-134500-0035",
+          "ref": "AND YOU NEVER USED TO BE CROSS TO ME",
+          "hyp": "And you never used to be cross to me.",
+          "errors": 0
+        },
+        {
+          "id": "260-123286-0005",
+          "ref": "I AM NOT COMPLAINING THAT THE RATE IS SLOW BUT THAT THE SEA IS SO WIDE",
+          "hyp": "I am not complaining that the rate is slow, but that the sea is so wide.",
+          "errors": 0
+        },
+        {
+          "id": "260-123286-0018",
+          "ref": "I SAW AT THE HAMBURG MUSEUM THE SKELETON OF ONE OF THESE CREATURES THIRTY FEET IN LENGTH",
+          "hyp": "I saw at the Hamburg Museum the skeleton of one of these creatures, 30 feet in length.",
+          "errors": 0
+        },
+        {
+          "id": "260-123286-0031",
+          "ref": "AS FOR THE ICHTHYOSAURUS HAS HE RETURNED TO HIS SUBMARINE CAVERN",
+          "hyp": "As for the Ithiosaurus, has he returned to his submarine cabin?",
+          "errors": 2
+        },
+        {
+          "id": "260-123288-0012",
+          "ref": "THAT WILL BE SAFEST NO NO NEVER",
+          "hyp": "That will be the safest. No, no, never!",
+          "errors": 1
+        },
+        {
+          "id": "260-123288-0025",
+          "ref": "HERE IT COMES THERE IT GLIDES NOW IT IS UP THE RAGGED STUMP OF THE MAST THENCE IT LIGHTLY LEAPS ON THE PROVISION BAG DESCENDS WITH A LIGHT BOUND AND JUST SKIMS THE POWDER MAGAZINE HORRIBLE",
+          "hyp": "Here it comes, there it glides. Now it is up the ragged stump of the mast. Then it lightly leaps on the provision bag, descends with a light bound, and just skims the powder magazine. Horrible!",
+          "errors": 1
+        },
+        {
+          "id": "260-123440-0009",
+          "ref": "I SHALL NEVER GET TO TWENTY AT THAT RATE",
+          "hyp": "I shall never get to 20 at that rate.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3979-0002",
+          "ref": "LET US BEGIN WITH THAT HIS COMMENTARY ON GALATIANS",
+          "hyp": "Let us begin with that. His commentary on Galatians.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3980-0002",
+          "ref": "HE WAS THE LAST TO TURN TO CHRIST",
+          "hyp": "He was the last to turn to Christ.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3980-0015",
+          "ref": "FOR A PERSON TO POSSESS KNOWLEDGE IS NOT ENOUGH",
+          "hyp": "For a person to possess knowledge is not enough.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3980-0028",
+          "ref": "THIS SHOULD GO FAR IN SHUTTING THE MOUTHS OF THE FALSE APOSTLES",
+          "hyp": "This should go far in shutting the mouths of the false apostles.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3980-0041",
+          "ref": "GRACE INVOLVES THE REMISSION OF SINS PEACE AND A HAPPY CONSCIENCE",
+          "hyp": "Grace involves the remission of sins, peace, and a happy conscience.",
+          "errors": 0
+        },
+        {
+          "id": "2830-3980-0054",
+          "ref": "THAT CHRIST IS VERY GOD IS APPARENT IN THAT PAUL ASCRIBES TO HIM DIVINE POWERS EQUALLY WITH THE FATHER AS FOR INSTANCE THE POWER TO DISPENSE GRACE AND PEACE",
+          "hyp": "that Christ is very God is a parent in that Paul ascribes to him divine powers equally with the Father as For instance the power to dispense grace and peace",
+          "errors": 2
+        },
+        {
+          "id": "2830-3980-0067",
+          "ref": "THIS SENTENCE ALSO DEFINES OUR SINS AS GREAT SO GREAT IN FACT THAT THE WHOLE WORLD COULD NOT MAKE AMENDS FOR A SINGLE SIN",
+          "hyp": "This sentence also defines our sins as great, so great in fact that the whole world could not make amends for a single sin.",
+          "errors": 0
+        },
+        {
+          "id": "2961-960-0003",
+          "ref": "THEY WERE ABSORBED IN HIS THEOLOGY AND WERE UNDER THE DOMINION OF HIS NAME WHILE THAT WHICH WAS TRULY GREAT AND TRULY CHARACTERISTIC IN HIM HIS EFFORT TO REALIZE AND CONNECT ABSTRACTIONS WAS NOT UNDERSTOOD BY THEM AT ALL",
+          "hyp": "They were absorbed in his theology and were under the dominion of his name. While that which was truly great and truly characteristic in him, his effort to realize and connect abstractions was not understood by them at all.",
+          "errors": 0
+        },
+        {
+          "id": "2961-960-0016",
+          "ref": "BUT PLATO HAS NOT THE SAME MASTERY OVER HIS INSTRUMENT WHICH HE EXHIBITS IN THE PHAEDRUS OR SYMPOSIUM",
+          "hyp": "But Plato has not the same mastery over his instrument, which he exhibits in the Fidrus or Symposium.",
+          "errors": 1
+        },
+        {
+          "id": "2961-961-0006",
+          "ref": "AND WHAT WAS THE SUBJECT OF THE POEM SAID THE PERSON WHO MADE THE REMARK",
+          "hyp": "And what was the subject of the poem, said the person who made the remark?",
+          "errors": 0
+        },
+        {
+          "id": "2961-961-0020",
+          "ref": "THIS IS THE EXPLANATION OF THE SHALLOWS WHICH ARE FOUND IN THAT PART OF THE ATLANTIC OCEAN",
+          "hyp": "This is the explanation of the shallows which are found in that part of the Atlantic Ocean.",
+          "errors": 0
+        },
+        {
+          "id": "3570-5694-0010",
+          "ref": "THE OBJECTION OF COURSE PRESENTS ITSELF THAT EXPENDITURE ON WOMEN'S DRESS AND HOUSEHOLD PARAPHERNALIA IS AN OBVIOUS EXCEPTION TO THIS RULE BUT IT WILL APPEAR IN THE SEQUEL THAT THIS EXCEPTION IS MUCH MORE OBVIOUS THAN SUBSTANTIAL",
+          "hyp": "The objection of course presents itself that expenditure on women's dress and household paraphernalia is an obvious exception to this rule, but it will appear in the sequel that this exception is much more obvious than substantial.",
+          "errors": 0
+        },
+        {
+          "id": "3570-5695-0000",
+          "ref": "IN A GENERAL WAY THOUGH NOT WHOLLY NOR CONSISTENTLY THESE TWO GROUPS COINCIDE",
+          "hyp": "In a general way, though not wholly nor consistently, these two groups coincide.",
+          "errors": 0
+        },
+        {
+          "id": "3570-5695-0013",
+          "ref": "CONSUMPTION BECOMES A LARGER ELEMENT IN THE STANDARD OF LIVING IN THE CITY THAN IN THE COUNTRY",
+          "hyp": "Consumption becomes a larger element in the standard of living in the city than in the country.",
+          "errors": 0
+        },
+        {
+          "id": "3570-5696-0010",
+          "ref": "AN ARTICLE MAY BE USEFUL AND WASTEFUL BOTH AND ITS UTILITY TO THE CONSUMER MAY BE MADE UP OF USE AND WASTE IN THE MOST VARYING PROPORTIONS",
+          "hyp": "An article may be useful and wasteful both, and its utility to the consumer may be made up of use and waste in the most varying proportions.",
+          "errors": 0
+        },
+        {
+          "id": "3575-170457-0012",
+          "ref": "YOU WILL SAY THAT A WOMAN HAS NO NEED OF SUCH A CAUTION THERE CAN BE NO PERIL IN IT FOR HER",
+          "hyp": "You will say that a woman has no need of such a caution. There can be no peril in it for her.",
+          "errors": 0
+        },
+        {
+          "id": "3575-170457-0025",
+          "ref": "AGAIN I THANK YOU THIS INCIDENT I SUPPOSE WILL BE RENEWED NO MORE IF I LIVE TO BE AN OLD WOMAN I SHALL REMEMBER IT THIRTY YEARS HENCE AS A BRIGHT DREAM",
+          "hyp": "Again, I thank you. This incident, I suppose, will be renewed no more. If I live to be an old woman, I shall remember it 30 years hence as a bright dream.",
+          "errors": 0
+        },
+        {
+          "id": "3575-170457-0038",
+          "ref": "AND MEANTIME I KNOW THE GREATNESS OF JEHOVAH I ACKNOWLEDGE THE PERFECTION OF HIS WORD I ADORE THE PURITY OF THE CHRISTIAN FAITH MY THEORY IS RIGHT MY PRACTICE HORRIBLY WRONG",
+          "hyp": "And meantime, I know the greatness of Jehovah. I acknowledge the perfection of His word. I adore the purity of the Christian faith. My theory is right. My practice horribly wrong.",
+          "errors": 0
+        },
+        {
+          "id": "3575-170457-0051",
+          "ref": "AT TEA TIME THEY WERE SAD AND SILENT AND THE MEAL WENT AWAY UNTOUCHED BY ANY OF THE THREE",
+          "hyp": "At tea time they were sad and silent and the meal went away untouched by any of the three.",
+          "errors": 0
+        },
+        {
+          "id": "3729-6852-0007",
+          "ref": "TWO YEARS BEFORE HER DEATH I SAW HER PERFORM THE CHARACTER OF MARIANNE IN THE COMEDY OF MARIVAUX AND IN SPITE OF HER AGE AND DECLINING HEALTH THE ILLUSION WAS COMPLETE",
+          "hyp": "Two years before her death, I saw her perform the character of Mary Ann in the comedy of Marivaux, and in spite of her age and declining health, the illusion was complete.",
+          "errors": 2
+        },
+        {
+          "id": "3729-6852-0021",
+          "ref": "I THANK HIM AND TAKE MY LEAVE",
+          "hyp": "I thank him and take my leave.",
+          "errors": 0
+        },
+        {
+          "id": "3729-6852-0034",
+          "ref": "LET A MAN RUN AND EVERYBODY WILL RUN AFTER HIM THE CROWD WILL NOT STOP UNLESS THE MAN IS PROVED TO BE MAD BUT TO PROVE IT IS INDEED A DIFFICULT TASK BECAUSE WE HAVE A CROWD OF MEN WHO MAD FROM THEIR BIRTH ARE STILL CONSIDERED WISE",
+          "hyp": "Let a man run and everybody will run after him the crowd will not stop unless the man has proved to be mad But to prove it is indeed a difficult task Because we have a crowd of men who mad from their birth are still considered wise",
+          "errors": 1
+        },
+        {
+          "id": "4077-13751-0000",
+          "ref": "ON THE SIXTH OF APRIL EIGHTEEN THIRTY THE CHURCH OF JESUS CHRIST OF LATTER DAY SAINTS WAS FORMALLY ORGANIZED AND THUS TOOK ON A LEGAL EXISTENCE",
+          "hyp": "On the 6th of April, 1830, the Church of Jesus Christ of Latter-day Saints was formerly organized and thus took on a legal existence.",
+          "errors": 7
+        },
+        {
+          "id": "4077-13751-0013",
+          "ref": "THEIR SUFFERINGS HAVE NEVER YET BEEN FITLY CHRONICLED BY HUMAN SCRIBE",
+          "hyp": "Their sufferings have never yet been fitly chronicled by human scribe.",
+          "errors": 0
+        },
+        {
+          "id": "4077-13754-0004",
+          "ref": "ALREADY A NORTH AND A SOUTH WERE TALKED OF WHY NOT SET UP ALSO A WEST",
+          "hyp": "Already a north and south were talked of. Why not set up also a west?",
+          "errors": 1
+        },
+        {
+          "id": "4446-2271-0000",
+          "ref": "MAINHALL LIKED ALEXANDER BECAUSE HE WAS AN ENGINEER",
+          "hyp": "Main hall liked Alexander because he was an engineer.",
+          "errors": 2
+        },
+        {
+          "id": "4446-2271-0013",
+          "ref": "DO YOU KNOW I THOUGHT THE DANCE A BIT CONSCIOUS TO NIGHT FOR THE FIRST TIME",
+          "hyp": "You know, I thought the dance a bit conscious tonight, for the first time.",
+          "errors": 3
+        },
+        {
+          "id": "4446-2273-0001",
+          "ref": "THEY ASKED HIM TO COME TO SEE THEM IN CHELSEA AND THEY SPOKE VERY TENDERLY OF HILDA",
+          "hyp": "They asked him to come to see them in Chelsea, and they spoke very tenderly of Hilda.",
+          "errors": 0
+        },
+        {
+          "id": "4446-2273-0014",
+          "ref": "THERE ARE FEW CHANGES IN THE OLD QUARTER",
+          "hyp": "There are a few changes in the old quarter.",
+          "errors": 1
+        },
+        {
+          "id": "4446-2273-0027",
+          "ref": "WHEN SHE FINISHED ALEXANDER SHOOK HIMSELF OUT OF A REVERIE",
+          "hyp": "When she finished, Alexander shook himself out of a reverie.",
+          "errors": 0
+        },
+        {
+          "id": "4446-2275-0004",
+          "ref": "ALEXANDER DID NOT SIT DOWN",
+          "hyp": "Alexander did not sit down.",
+          "errors": 0
+        },
+        {
+          "id": "4446-2275-0017",
+          "ref": "BUT IT'S WORSE NOW IT'S UNBEARABLE",
+          "hyp": "But it's worse now. It's unbearable.",
+          "errors": 0
+        },
+        {
+          "id": "4446-2275-0030",
+          "ref": "YES HILDA I KNOW THAT HE SAID SIMPLY",
+          "hyp": "Yes, Hilda, I know that, he said simply.",
+          "errors": 0
+        },
+        {
+          "id": "4446-2275-0043",
+          "ref": "BARTLEY BENT OVER AND TOOK HER IN HIS ARMS KISSING HER MOUTH AND HER WET TIRED EYES",
+          "hyp": "Bartley bent over and took her in his arms, kissing her mouth and her wet, tired eyes.",
+          "errors": 0
+        },
+        {
+          "id": "4507-16021-0010",
+          "ref": "WE HAVE ALWAYS THOUGHT THAT IT WAS SOMETIMES A COURAGEOUS ACT AND AT LEAST A SIMPLE AND USEFUL DEED WORTHY OF THE SYMPATHETIC ATTENTION WHICH DUTY ACCEPTED AND FULFILLED MERITS",
+          "hyp": "We have always thought that it was sometimes a courageous act, and at least a simple and useful deed worthy of the sympathetic attention which duty accepted in fulfilled merits.",
+          "errors": 1
+        },
+        {
+          "id": "4507-16021-0023",
+          "ref": "THE SUGAR MANUFACTURER WHO SAYS LOAF CLARIFIED LUMPS BASTARD COMMON BURNT THIS HONEST MANUFACTURER TALKS SLANG",
+          "hyp": "The sugar manufacturer who says, loaf, clarified, lumps, bastard, common, burnt. This honest manufacturer talks slang.",
+          "errors": 0
+        },
+        {
+          "id": "4507-16021-0036",
+          "ref": "FACTS FORM ONE OF THESE AND IDEAS THE OTHER",
+          "hyp": "facts form one of these and ideas the other.",
+          "errors": 0
+        },
+        {
+          "id": "4507-16021-0049",
+          "ref": "THERE IS HARDLY ONE DAY OUT OF A HUNDRED WHICH IS WHOLLY JOYOUS AND SUNNY",
+          "hyp": "There is hardly one day out of a hundred which is holy joyous and sunny.",
+          "errors": 1
+        },
+        {
+          "id": "4970-29093-0002",
+          "ref": "HE HAS NO TRADITIONS TO BIND HIM OR GUIDE HIM AND HIS IMPULSE IS TO BREAK AWAY FROM THE OCCUPATION HIS FATHER HAS FOLLOWED AND MAKE A NEW WAY FOR HIMSELF",
+          "hyp": "He has no traditions to bind him or guide him, and his impulse is to break away from the occupation his father has followed, and make a new way for himself.",
+          "errors": 0
+        },
+        {
+          "id": "4970-29093-0015",
+          "ref": "YOU CAN BEGIN BY CARRYING A ROD AND PUTTING DOWN THE FIGURES",
+          "hyp": "You can begin by carrying a rod and putting down the figures.",
+          "errors": 0
+        },
+        {
+          "id": "4970-29095-0005",
+          "ref": "THY WAYS GREATLY TRY ME RUTH AND ALL THY RELATIONS",
+          "hyp": "Thy ways greatly try me, Ruth, and all thy relations.",
+          "errors": 0
+        },
+        {
+          "id": "4970-29095-0018",
+          "ref": "RUTH ASKED THE ENTHUSIASTS IF THEY WOULD LIKE TO LIVE IN SUCH A SOUNDING MAUSOLEUM WITH ITS GREAT HALLS AND ECHOING ROOMS AND NO COMFORTABLE PLACE IN IT FOR THE ACCOMMODATION OF ANY BODY",
+          "hyp": "Ruth asked the enthusiasts if they would like to live in such a sounding mausoleum, with its great halls and echoing rooms, and no comfortable place in it for the accommodation of anybody.",
+          "errors": 2
+        },
+        {
+          "id": "4970-29095-0031",
+          "ref": "HE DOESN'T SAY EXACTLY WHAT IT IS SAID RUTH A LITTLE DUBIOUSLY BUT IT'S SOMETHING ABOUT LAND AND RAILROADS AND THEE KNOWS FATHER THAT FORTUNES ARE MADE NOBODY KNOWS EXACTLY HOW IN A NEW COUNTRY",
+          "hyp": "He doesn't say exactly what it is,\" said Ruth a little dubiously. But it's something about land and railroads and the nose-father that fortunes are made nobody knows exactly how in a new country.",
+          "errors": 2
+        },
+        {
+          "id": "4992-23283-0005",
+          "ref": "NOT THAT I KNOW OF NOT ONE MORE THAT I KNOW OF HE REPLIED WITH ASTONISHMENT AT WHAT SHE HAD INSINUATED AND YET WITH A PERFECT ASSURANCE THAT SHE WAS IN THE WRONG",
+          "hyp": "Not that I know of, not one more that I know of,\" he replied, with astonishment at what she had insinuated, and yet with a perfect assurance that she was in the wrong.",
+          "errors": 0
+        },
+        {
+          "id": "4992-23283-0018",
+          "ref": "TO RELIEVE HER FROM BOTH HE LAID HIS HAND WITH FORCE UPON HIS HEART AND SAID DO YOU BELIEVE ME",
+          "hyp": "To relieve her from both he laid his hand with force upon his heart and said, Do you believe me?",
+          "errors": 0
+        },
+        {
+          "id": "4992-41797-0010",
+          "ref": "ALWAYS IRRITABLE COLD INDIFFERENT HE HAD GROWN RAPIDLY MORE SO AS YEARS WENT ON",
+          "hyp": "Always irritable, cold, indifferent. He had grown rapidly more so as years went on.",
+          "errors": 0
+        },
+        {
+          "id": "4992-41806-0000",
+          "ref": "NATTY HARMON TRIED THE KITCHEN PUMP SECRETLY SEVERAL TIMES DURING THE EVENING FOR THE WATER HAD TO RUN UP HILL ALL THE WAY FROM THE WELL TO THE KITCHEN SINK AND HE BELIEVED THIS TO BE A CONTINUAL MIRACLE THAT MIGHT GIVE OUT AT ANY MOMENT",
+          "hyp": "Natty Harmon tried the kitchen pump secretly several times during the evening, for the water had to run uphill all the way from the well to the kitchen sink, and he believed this to be a continual miracle that might give out at any moment.",
+          "errors": 2
+        },
+        {
+          "id": "4992-41806-0013",
+          "ref": "APPROACHING THE DINING TABLE HE CAREFULLY PLACED THE ARTICLE IN THE CENTRE AND REMOVED THE CLOTH",
+          "hyp": "Approaching the dining table, he carefully placed the article in the center and removed the cloth.",
+          "errors": 1
+        },
+        {
+          "id": "5105-28233-0008",
+          "ref": "WHEN A PRIVATE IN THE EIGHTH CAVALRY HE HAD BEEN ON THE POINT OF QUITTING THE ARMY AT TWENTY EIGHT YEARS OF AGE BUT UNEXPECTEDLY HE HAD BEEN APPOINTED ORDERLY TO CAPTAIN SERVADAC",
+          "hyp": "When a private in the Eighth Cavalry he had been on the point of quitting the army at twenty-eight years of age, but unexpectedly he had been appointed orderly to Captain Servidak.",
+          "errors": 1
+        },
+        {
+          "id": "5105-28240-0010",
+          "ref": "CAPTAIN SERVADAC HASTENED TOWARDS HIM",
+          "hyp": "Captain Servidak hastened toward him.",
+          "errors": 2
+        },
+        {
+          "id": "5105-28240-0024",
+          "ref": "DOUBTS NOW AROSE AND SOME DISCUSSION FOLLOWED WHETHER OR NOT IT WAS DESIRABLE FOR BEN ZOOF TO ACCOMPANY HIS MASTER",
+          "hyp": "Doubts now arose, and some discussion followed, whether or not it was desirable for Ben Zoof to accompany his master.",
+          "errors": 0
+        },
+        {
+          "id": "5105-28241-0012",
+          "ref": "IS IT NOT IMPOSSIBLE HE MURMURED ALOUD THAT ANY CITY SHOULD DISAPPEAR SO COMPLETELY",
+          "hyp": "Is it not impossible,\" he murmured aloud, that any city should disappear so completely?",
+          "errors": 0
+        },
+        {
+          "id": "5142-33396-0005",
+          "ref": "BUT I STAYED THAT SPRING AND BUILT ME A BOAT",
+          "hyp": "But I stayed that spring and built me a boat.",
+          "errors": 0
+        },
+        {
+          "id": "5142-33396-0018",
+          "ref": "MY DRAGON'S BELLY IS NEVER FULL AND ON BOARD WENT THE GOLD",
+          "hyp": "My dragon's belly is never full, and on board went the gold.",
+          "errors": 0
+        },
+        {
+          "id": "5142-33396-0031",
+          "ref": "THEY SET UP A CRANE OVER THE FIRE AND HUNG THE POT UPON IT AND WE SAT AND WATCHED IT BOIL WHILE WE JOKED AT LAST THE SUPPER BEGAN",
+          "hyp": "They set up a crane over the fire and hung the pot upon it, and we sat and watched it boil while we joked. At last the supper began.",
+          "errors": 0
+        },
+        {
+          "id": "5142-33396-0044",
+          "ref": "I AM STIFF WITH LONG SITTING HE SAID I ITCH FOR A FIGHT I TURNED TO THE FARMER",
+          "hyp": "I'm stiff with long sitting, he said. I itch for a fight. I turned to the farmer.",
+          "errors": 2
+        },
+        {
+          "id": "5142-33396-0057",
+          "ref": "WE SUNK HIS SHIP AND MEN BUT HIM WE BROUGHT TO YOU",
+          "hyp": "We sunk his ship and men, but him we brought to you.",
+          "errors": 0
+        },
+        {
+          "id": "5142-36377-0001",
+          "ref": "IN FIVE MINUTES I WAS IN A NEW WORLD AND MY MELANCHOLY ROOM WAS FULL OF THE LIVELIEST FRENCH COMPANY",
+          "hyp": "In five minutes, I was in a new world and my melancholy room was full of the liveliest French company.",
+          "errors": 0
+        },
+        {
+          "id": "5142-36377-0014",
+          "ref": "A PRETTY GIRL AND SO FAR AS I COULD JUDGE BY APPEARANCES A GOOD GIRL TOO DESCRIBING HER GENERALLY I MAY SAY THAT SHE HAD A SMALL HEAD WELL CARRIED AND WELL SET ON HER SHOULDERS BRIGHT GRAY EYES THAT LOOKED AT YOU HONESTLY AND MEANT WHAT THEY LOOKED A TRIM SLIGHT LITTLE FIGURE TOO SLIGHT FOR OUR ENGLISH NOTIONS OF BEAUTY A STRONG AMERICAN ACCENT AND A RARE THING IN AMERICA A PLEASANTLY TONED VOICE WHICH MADE THE ACCENT AGREEABLE TO ENGLISH EARS",
+          "hyp": "A pretty girl, and so far as I could judge by appearances, a good girl too. Describing her generally, I may say that she had a small head, well carried, and well set on her shoulders. Bright grey eyes that looked at you honestly and meant what they looked. A trim, slight little figure. Too slight for our English notions of beauty. A strong American accent. And a rare thing in America. A pleasantly tone voice, which made the accent agreeable to English ears.",
+          "errors": 2
+        },
+        {
+          "id": "5142-36586-0001",
+          "ref": "SO IT IS WITH THE LOWER ANIMALS",
+          "hyp": "So it is with the lower animals.",
+          "errors": 0
+        },
+        {
+          "id": "5639-40744-0008",
+          "ref": "WHO TOUCHES ME AM I IN BED",
+          "hyp": "Who touches me? Am I in bed?",
+          "errors": 0
+        },
+        {
+          "id": "5639-40744-0021",
+          "ref": "SHE MEANWHILE PASSED HER LIFE WITH HER PARENTS IN THE STRICTEST RETIREMENT NEVER LETTING HERSELF BE SEEN BUT SHUNNING EVERY EYE LEST IT SHOULD READ HER MISFORTUNE IN HER FACE",
+          "hyp": "She meanwhile passed her life with her parents in the strictest retirement, never letting herself be seen, but shunning every eye a listed should read her misfortune in her face.",
+          "errors": 2
+        },
+        {
+          "id": "5639-40744-0034",
+          "ref": "ALL ROSE TO DO HER REVERENCE AS IF SOMETHING FROM HEAVEN HAD MIRACULOUSLY APPEARED BEFORE THEM BUT GAZING ON HER ENTRANCED WITH ADMIRATION NOT ONE OF THEM WAS ABLE TO ADDRESS A SINGLE WORD TO HER",
+          "hyp": "All rose to do her reverence, as if something from heaven had miraculously appeared before them. But gazing on her and trans with admiration, not one of them was able to address a single word to her.",
+          "errors": 2
+        },
+        {
+          "id": "5683-32865-0005",
+          "ref": "BUT HER GREETING TO CAPTAIN LAKE WAS MORE THAN USUALLY HAUGHTY AND FROZEN AND HER FEATURES I FANCIED PARTICULARLY PROUD AND PALE",
+          "hyp": "But her greeting to Captain Leak was more than usually haughty and frozen, and her features, I fancied, particularly proud and pale.",
+          "errors": 1
+        },
+        {
+          "id": "5683-32866-0000",
+          "ref": "MISS LAKE DECLINED THE CARRIAGE TO NIGHT",
+          "hyp": "Miss Lake declined the carriage tonight.",
+          "errors": 2
+        },
+        {
+          "id": "5683-32866-0013",
+          "ref": "THERE WAS A BRIGHT MOONLIGHT BROKEN BY THE SHADOWS OF OVERHANGING BOUGHS AND WITHERED LEAVES AND THE MOTTLED LIGHTS AND SHADOWS GLIDED ODDLY ACROSS HIS PALE FEATURES",
+          "hyp": "There was a bright moonlight broken by the shadows of overhanging boughs and withered leaves, and the mottled lights and shadows glided oddly across his pale features.",
+          "errors": 0
+        },
+        {
+          "id": "5683-32866-0026",
+          "ref": "I BOLDLY LIGHTED MY CHEROOT",
+          "hyp": "I boldly lighted my cheroot.",
+          "errors": 0
+        },
+        {
+          "id": "5683-32879-0008",
+          "ref": "YOU HAVE BEEN SO ILL MY POOR RACHEL",
+          "hyp": "You have been so ill, my poor Rachel.",
+          "errors": 0
+        },
+        {
+          "id": "5683-32879-0021",
+          "ref": "DORCAS IN HER STRANGE WAY WAS MOVED",
+          "hyp": "Dorcas, in her strange way, was moved.",
+          "errors": 0
+        },
+        {
+          "id": "61-70968-0008",
+          "ref": "TAKE YOUR PLACE AND LET US SEE WHAT THE CRYSTAL CAN SHOW TO YOU",
+          "hyp": "Take your place and let us see what the crystal can show to you.",
+          "errors": 0
+        },
+        {
+          "id": "61-70968-0022",
+          "ref": "TIS FINE FOR YOU TO TALK OLD MAN ANSWERED THE LEAN SULLEN APPRENTICE",
+          "hyp": "It is fine for you to talk old man, answered the lean sullen apprentice.",
+          "errors": 2
+        },
+        {
+          "id": "61-70968-0035",
+          "ref": "TAKING ADVANTAGE OF THIS THE SQUIRE'S FEW MEN REDOUBLED THEIR EFFORTS AND ENCOURAGED BY ROBIN'S AND THE LITTLE STROLLER'S CRIES FOUGHT THEIR WAY TO HIM",
+          "hyp": "Taking advantage of this, the Squires' few men redoubled their efforts, and, encouraged by Robbins and the little strollers' cries, fought their way to him.",
+          "errors": 3
+        },
+        {
+          "id": "61-70968-0048",
+          "ref": "AND HENRY MIGHT RETURN TO ENGLAND AT ANY MOMENT",
+          "hyp": "and Henry might return to England at any moment.",
+          "errors": 0
+        },
+        {
+          "id": "61-70968-0061",
+          "ref": "YOU ARE A WORTHY LEECH WILL PRESENTLY WHISPERED ROBIN THE WINE HAS WORKED A MARVEL",
+          "hyp": "You are a worthy leech-will, presently, whispered Robin. The wine has worked a marvel.",
+          "errors": 0
+        },
+        {
+          "id": "61-70970-0011",
+          "ref": "AS ANY IN ENGLAND I WOULD SAY SAID GAMEWELL PROUDLY THAT IS IN HIS DAY",
+          "hyp": "As any in England, I would say, said Gamewell proudly, that is, in his day.",
+          "errors": 0
+        },
+        {
+          "id": "61-70970-0024",
+          "ref": "THEY MOVED THEREAFTER CAUTIOUSLY ABOUT THE HUT GROPING BEFORE AND ABOUT THEM TO FIND SOMETHING TO SHOW THAT WARRENTON HAD FULFILLED HIS MISSION",
+          "hyp": "They moved thereafter cautiously about the hut, groping before and about them to find something to show that the warrant had fulfilled his mission.",
+          "errors": 2
+        },
+        {
+          "id": "61-70970-0037",
+          "ref": "HIS TONES RANG PLEASANTLY ON WARRENTON'S EARS AND FORTHWITH A GOOD FELLOWSHIP WAS HERALDED BETWEEN THEM",
+          "hyp": "His tones rang pleasantly on Warrington's ears, and forthwith a good fellowship was heralded between them.",
+          "errors": 1
+        },
+        {
+          "id": "672-122797-0009",
+          "ref": "HAVE YOU NOT MET THEM ANYWHERE",
+          "hyp": "Have you not met them anywhere?",
+          "errors": 0
+        },
+        {
+          "id": "672-122797-0022",
+          "ref": "THE AXE STRUCK DEEP INTO THE VERY PITH THE TREE FELL TO THE EARTH WITH A SIGH HE FELT A PANG IT WAS LIKE A SWOON HE COULD NOT THINK OF HAPPINESS FOR HE WAS SORROWFUL AT BEING SEPARATED FROM HIS HOME FROM THE PLACE WHERE HE HAD SPRUNG UP",
+          "hyp": "The axe struck deep into the very pith. The tree fell to the earth with a sigh. He felt a pang. It was like a swoon. He could not think of happiness, for he was sorrowful at being separated from his home, from the place where he had sprung up.",
+          "errors": 0
+        },
+        {
+          "id": "672-122797-0035",
+          "ref": "BUT I SHALL TELL ONLY ONE STORY",
+          "hyp": "But I shall tell only one story.",
+          "errors": 0
+        },
+        {
+          "id": "672-122797-0049",
+          "ref": "SQUEAK SQUEAK",
+          "hyp": "Squeak! Squeak!",
+          "errors": 0
+        },
+        {
+          "id": "672-122797-0062",
+          "ref": "NO SAID THE TREE",
+          "hyp": "No, said the tree.",
+          "errors": 0
+        },
+        {
+          "id": "6829-68769-0000",
+          "ref": "KENNETH AND BETH REFRAINED FROM TELLING THE OTHER GIRLS OR UNCLE JOHN OF OLD WILL ROGERS'S VISIT BUT THEY GOT MISTER WATSON IN THE LIBRARY AND QUESTIONED HIM CLOSELY ABOUT THE PENALTY FOR FORGING A CHECK",
+          "hyp": "Kenneth and Beth refrained from telling the other girls or Uncle John of Old Will Rogers visit, but they got Mr. Watson in the library and questioned him closely about the penalty for forging a check.",
+          "errors": 2
+        },
+        {
+          "id": "6829-68769-0013",
+          "ref": "MAY WE SEE GATES AT ONCE ASKED KENNETH",
+          "hyp": "Maybe see Gates at once, ask Kenneth.",
+          "errors": 3
+        },
+        {
+          "id": "6829-68769-0026",
+          "ref": "HE SPOKE SIMPLY BUT PACED UP AND DOWN THE NARROW CELL IN FRONT OF THEM",
+          "hyp": "He spoke simply, but paced up and down the narrow cell in front of them.",
+          "errors": 0
+        },
+        {
+          "id": "6829-68769-0039",
+          "ref": "HE LOOKED UP RATHER UNGRACIOUSLY BUT MOTIONED THEM TO BE SEATED",
+          "hyp": "He looked up rather ungraciously, but motioned them to be seated.",
+          "errors": 0
+        },
+        {
+          "id": "6829-68769-0052",
+          "ref": "HE MIGHT HAVE HAD THAT FORGED CHECK FOR THE FACE OF IT IF HE'D BEEN SHARP",
+          "hyp": "He might have had that forged check for the face of it if he'd been sharp",
+          "errors": 0
+        },
+        {
+          "id": "6829-68771-0011",
+          "ref": "TABLES WERE SPREAD ON THE LAWN AND A DAINTY BUT SUBSTANTIAL REPAST WAS TO BE SERVED",
+          "hyp": "Tables were spread on the lawn, and a dainty but substantial repast was to be served.",
+          "errors": 0
+        },
+        {
+          "id": "6829-68771-0024",
+          "ref": "FOR THE FIRST TIME THE MAID SEEMED A LITTLE CONFUSED AND HER GAZE WANDERED FROM THE FACE OF HER VISITOR",
+          "hyp": "For the first time, the maid seemed a little confused, and her gaze wandered from the face of her visitor.",
+          "errors": 0
+        },
+        {
+          "id": "6930-75918-0000",
+          "ref": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+          "hyp": "Concord returned to its place amidst the tents.",
+          "errors": 0
+        },
+        {
+          "id": "6930-75918-0014",
+          "ref": "BUT CONTINUED RAOUL NOT INTERRUPTED BY THIS MOVEMENT OF HIS FRIEND HEAVEN BE PRAISED THE FRENCH WHO ARE PRONOUNCED TO BE THOUGHTLESS AND INDISCREET RECKLESS EVEN ARE CAPABLE OF BRINGING A CALM AND SOUND JUDGMENT TO BEAR ON MATTERS OF SUCH HIGH IMPORTANCE",
+          "hyp": "But, continued Rao, not interrupted by this movement of his friend, heaven be praised, the French, who are pronounced to be thoughtless and indiscreet, reckless even, are capable of bringing a calm and sound judgment to bear on matters of such high importance.",
+          "errors": 1
+        },
+        {
+          "id": "6930-76324-0006",
+          "ref": "HERS HAPPENED TO BE IN THE SAME FRAME TOO BUT SHE EVIDENTLY DIDN'T CARE ABOUT THAT",
+          "hyp": "Hers happened to be on the same frame too, but she evidently didn't care about it.",
+          "errors": 2
+        },
+        {
+          "id": "6930-76324-0019",
+          "ref": "NOW LET'S DUST THE FURNITURE AND PICTURES",
+          "hyp": "Now let's dust the furniture in pictures.",
+          "errors": 1
+        },
+        {
+          "id": "6930-81414-0003",
+          "ref": "NO SOUND BROKE THE STILLNESS OF THE NIGHT",
+          "hyp": "No sound broke the stillness of the night.",
+          "errors": 0
+        },
+        {
+          "id": "6930-81414-0016",
+          "ref": "BUT THAT IS KAFFAR'S KNIFE",
+          "hyp": "But that is Kaffir's knife.",
+          "errors": 1
+        },
+        {
+          "id": "7021-79730-0001",
+          "ref": "TO SUPPOSE THAT THE OBJECT OF THIS WORK IS TO AID IN EFFECTING SUCH A SUBSTITUTION AS THAT IS ENTIRELY TO MISTAKE ITS NATURE AND DESIGN",
+          "hyp": "to suppose that the object of this work is to aid in affecting such a substitution as that is entirely to mistake its nature and design.",
+          "errors": 1
+        },
+        {
+          "id": "7021-79740-0004",
+          "ref": "YOU HAVE COME ANDELLA ANDELLA WAS THE NAME OF JANE'S DOLL TO MAKE ROSALIE A VISIT",
+          "hyp": "You have come, Andella. Andella was the name of Jane Stahl to make Rosalie a visit.",
+          "errors": 2
+        },
+        {
+          "id": "7021-79759-0002",
+          "ref": "THEY ARE CHIEFLY FORMED FROM COMBINATIONS OF THE IMPRESSIONS MADE IN CHILDHOOD",
+          "hyp": "They are chiefly formed from combinations of the impressions made in childhood.",
+          "errors": 0
+        },
+        {
+          "id": "7021-85628-0009",
+          "ref": "AT THE FARTHER END OF THE LARGEST HALL A TABLE WAS SET WITH GOLDEN CUPS AND GOLDEN PLATES IN LONG ROWS",
+          "hyp": "At the farther end of the largest hall, a table was set with golden cups and golden plates in long rows.",
+          "errors": 0
+        },
+        {
+          "id": "7021-85628-0022",
+          "ref": "AND ALL HIS BROTHERS AND SISTERS STOOD ROUND AND LISTENED WITH THEIR MOUTHS OPEN",
+          "hyp": "and all his brothers and sisters stood round and listened with their mouths open.",
+          "errors": 0
+        },
+        {
+          "id": "7127-75946-0008",
+          "ref": "DOES YOUR MAJESTY THEN NO LONGER BELIEVE THE DISLOYAL ATTEMPT",
+          "hyp": "Does your majesty then no longer believe the disloyal attempt?",
+          "errors": 0
+        },
+        {
+          "id": "7127-75946-0021",
+          "ref": "YES SIRE AND READY DRESSED FOR THE BALLET",
+          "hyp": "Yes, sire. And ready dressed for the ballet.",
+          "errors": 0
+        },
+        {
+          "id": "7127-75947-0004",
+          "ref": "EXPLAIN YOURSELF",
+          "hyp": "Explain yourself.",
+          "errors": 0
+        },
+        {
+          "id": "7127-75947-0017",
+          "ref": "WHAT ALREADY HERE THEY SAID TO HER",
+          "hyp": "What? Already here? They said to her?",
+          "errors": 0
+        },
+        {
+          "id": "7127-75947-0030",
+          "ref": "SHE WAS HERE JUST NOW SAID THE COUNT",
+          "hyp": "She was here just now, said the Count.",
+          "errors": 0
+        },
+        {
+          "id": "7176-88083-0002",
+          "ref": "HIS FEET WERE RED HIS LONG NARROW BEAK WITH ITS SAW TOOTHED EDGES AND SHARP HOOKED TIP WAS BRIGHT RED",
+          "hyp": "His feet were red, his long, narrow beak, with its saw-toothed edges and sharp hooked tip was bright red.",
+          "errors": 0
+        },
+        {
+          "id": "7176-88083-0015",
+          "ref": "ALMOST INSTANTLY HE WAS FORCED TO THE TOP",
+          "hyp": "Almost instantly he was forced to the top.",
+          "errors": 0
+        },
+        {
+          "id": "7176-92135-0000",
+          "ref": "HE IS A WELCOME FIGURE AT THE GARDEN PARTIES OF THE ELECT WHO ARE ALWAYS READY TO ENCOURAGE HIM BY ACCEPTING FREE SEATS FOR HIS PLAY ACTOR MANAGERS NOD TO HIM EDITORS ALLOW HIM TO CONTRIBUTE WITHOUT CHARGE TO A SYMPOSIUM ON THE PRICE OF GOLF BALLS",
+          "hyp": "He is a welcome figure at the garden parties of the elect who are always ready to encourage him by accepting free seats for his play. Actor managers nod to him, editors allow him to contribute without charge to his symposium on the price of golf balls.",
+          "errors": 1
+        },
+        {
+          "id": "7176-92135-0013",
+          "ref": "WE MODERNS HOWEVER SEE THE ABSURDITY OF IT",
+          "hyp": "We moderns, however, see the absurdity of it.",
+          "errors": 0
+        },
+        {
+          "id": "7176-92135-0026",
+          "ref": "ENTER HAMLET WITH HIS FAVOURITE BOAR HOUND",
+          "hyp": "Enter Hamlet with his favorite boar hound.",
+          "errors": 1
+        },
+        {
+          "id": "7176-92135-0040",
+          "ref": "HOSTESS REPLACES LUMP AND INCLINES EMPTY TEAPOT OVER TRAY FOR A MOMENT THEN HANDS HIM A CUP PAINTED BROWN INSIDE THUS DECEIVING THE GENTLEMAN WITH THE TELESCOPE IN THE UPPER CIRCLE",
+          "hyp": "Hostess replaces his lump and inclines empty teapot over tray for a moment, then hands him a cup painted brown inside, thus deceiving the gentleman with a telescope in the upper circle.",
+          "errors": 2
+        },
+        {
+          "id": "7729-102255-0007",
+          "ref": "HIS RECEPTION SPEECH AT WESTPORT IN WHICH HE MAINTAINED THE LEGALITY OF THE LEGISLATURE AND HIS DETERMINATION TO ENFORCE THEIR LAWS DELIGHTED HIS PRO SLAVERY AUDITORS",
+          "hyp": "His reception speech at Westport, in which he maintained the legality of the legislature, and his determination to enforce their laws, delighted his pro-slavery auditors.",
+          "errors": 0
+        },
+        {
+          "id": "7729-102255-0020",
+          "ref": "THE INCIDENT WAS NOT VIOLENT NOR EVEN DRAMATIC NO POSSE WAS SUMMONED NO FURTHER EFFORT MADE AND REEDER FEARING PERSONAL VIOLENCE SOON FLED IN DISGUISE",
+          "hyp": "The incident was not violent, nor even dramatic. No posse was summoned, no further effort made, and reader, fearing personal violence, soon fled in disguise.",
+          "errors": 1
+        },
+        {
+          "id": "7729-102255-0033",
+          "ref": "AS HE HAD PROMISED TO PROTECT THE HOTEL THE REASSURED CITIZENS BEGAN TO LAUGH AT THEIR OWN FEARS",
+          "hyp": "As he had promised to protect the hotel, the reassured citizens began to laugh at their own fears.",
+          "errors": 0
+        },
+        {
+          "id": "7729-102255-0046",
+          "ref": "IN THE EARLY MORNING OF THE NEXT DAY MAY TWENTY NINTH A COMPANY OF DRAGOONS WITH ONE EMPTY SADDLE CAME DOWN FROM THE FORT AND WHILE THE PRO SLAVERY MEN STILL SLEPT THE PRISONER AND HIS ESCORT WERE ON THEIR WAY ACROSS THE PRAIRIES TO LECOMPTON IN THE CHARGE OF OFFICERS OF THE UNITED STATES ARMY",
+          "hyp": "In the early morning of the next day, May 29, a company of dragoons with one empty saddle came down from the fort, and while the pro-slavery men still slept, the prisoner and his escort were on their way across the prairies to Lekompton in the charge of officers of the United States Army.",
+          "errors": 2
+        },
+        {
+          "id": "8224-274381-0012",
+          "ref": "MONTROSE WEAK IN CAVALRY HERE LINED HIS TROOPS OF HORSE WITH INFANTRY AND AFTER PUTTING THE ENEMY'S HORSE TO ROUT FELL WITH UNITED FORCE UPON THEIR FOOT WHO WERE ENTIRELY CUT IN PIECES THOUGH WITH THE LOSS OF THE GALLANT LORD GORDON ON THE PART OF THE ROYALISTS",
+          "hyp": "Montrose, weak in cavalry, here lined his troops of horse with infantry, and after putting the enemy's horse to rout, fell with united force upon their foot, who were entirely cut in pieces, though with the loss of the gallant Lord Gordon on the part of the royalists.",
+          "errors": 0
+        },
+        {
+          "id": "8224-274384-0007",
+          "ref": "HAVE MERCY LORD ON ME I PRAY FOR MEN WOULD ME DEVOUR",
+          "hyp": "Have mercy, Lord, on me I pray, for men would me devour.",
+          "errors": 0
+        },
+        {
+          "id": "8230-279154-0006",
+          "ref": "THE BEHAVIOURIST WHO ATTEMPTS TO MAKE PSYCHOLOGY A RECORD OF BEHAVIOUR HAS TO TRUST HIS MEMORY IN MAKING THE RECORD",
+          "hyp": "The behaviorist who attempts to make psychology a record of behavior has to trust his memory in making the record.",
+          "errors": 2
+        },
+        {
+          "id": "8230-279154-0019",
+          "ref": "IT WOULD SEEM THAT ONLY RATHER RECENT EVENTS CAN BE PLACED AT ALL ACCURATELY BY MEANS OF FEELINGS GIVING THEIR TEMPORAL RELATION TO THE PRESENT BUT IT IS CLEAR THAT SUCH FEELINGS MUST PLAY AN ESSENTIAL PART IN THE PROCESS OF DATING REMEMBERED EVENTS",
+          "hyp": "It would seem that only rather recent events can be placed at all accurately by means of feelings giving their temporal relation to the present. But it is clear that such feelings must play an essential part in the process of dating remembered events.",
+          "errors": 0
+        },
+        {
+          "id": "8230-279154-0032",
+          "ref": "IT IS THIS THAT IS OF INTEREST TO THEORY OF KNOWLEDGE",
+          "hyp": "It is this that is of interest to theory of knowledge.",
+          "errors": 0
+        },
+        {
+          "id": "8455-210777-0002",
+          "ref": "ON ARRIVING AT HOME AT MY OWN RESIDENCE I FOUND THAT OUR SALON WAS FILLED WITH A BRILLIANT COMPANY",
+          "hyp": "On arriving at home at my own residence, I found that our salon was filled with a brilliant company.",
+          "errors": 0
+        },
+        {
+          "id": "8455-210777-0015",
+          "ref": "I AND MY WIFE AND SON AND THE TWO CRASWELLERS AND THREE OR FOUR OTHERS AGREED TO DINE ON BOARD THE SHIP ON THE NEXT",
+          "hyp": "I and my wife and son and the two Cresswellers and three or four others agreed to dine on board the ship on the next.",
+          "errors": 1
+        },
+        {
+          "id": "8455-210777-0028",
+          "ref": "JACK WOULD BECOME EVA'S HAPPY HUSBAND AND WOULD REMAIN AMIDST THE HURRIED DUTIES OF THE EAGER WORLD",
+          "hyp": "Jack would become Eva's happy husband and would remain amidst the hurried duties of the eager world.",
+          "errors": 0
+        },
+        {
+          "id": "8455-210777-0041",
+          "ref": "THERE CAME UPON ME A SUDDEN SHOCK WHEN I HEARD THESE WORDS WHICH EXCEEDED ANYTHING WHICH I HAD YET FELT",
+          "hyp": "There came upon me a sudden shock when I heard these words, which exceeded anything which I had yet felt.",
+          "errors": 0
+        },
+        {
+          "id": "8455-210777-0054",
+          "ref": "THE LETTER RAN AS FOLLOWS",
+          "hyp": "The letter ran as follows.",
+          "errors": 0
+        },
+        {
+          "id": "8455-210777-0067",
+          "ref": "OR OF THE HABITS OF OUR PEOPLE IT IS QUITE IMPOSSIBLE",
+          "hyp": "or of the habits of our people. It is quite impossible.",
+          "errors": 0
+        },
+        {
+          "id": "8463-287645-0009",
+          "ref": "I NEVER KNEW OF BUT ONE MAN WHO COULD EVER PLEASE HIM",
+          "hyp": "I never knew of but one man who could ever please him.",
+          "errors": 0
+        },
+        {
+          "id": "8463-294825-0007",
+          "ref": "EVEN THE SUPPORTING CAST IS SHREWDLY DRAWN PROFESSOR ARONNAX THE CAREER SCIENTIST CAUGHT IN AN ETHICAL CONFLICT CONSEIL THE COMPULSIVE CLASSIFIER WHO SUPPLIES HUMOROUS TAG LINES FOR VERNE'S FAST FACTS THE HARPOONER NED LAND A CREATURE OF CONSTANT APPETITES MAN AS HEROIC ANIMAL",
+          "hyp": "Even the supporting cast is rudely drawn. Professor Aranax, the career scientist caught in an ethical conflict, consee the compulsive classifier who supplies humorous taglines for Vern's fast facts. The harpooner Ned Land, a creature of constant appetites, man as heroic animal.",
+          "errors": 6
+        },
+        {
+          "id": "8463-294828-0000",
+          "ref": "CHAPTER THREE AS MASTER WISHES",
+          "hyp": "Chapter 3 As Master Wishes",
+          "errors": 0
+        },
+        {
+          "id": "8463-294828-0013",
+          "ref": "HE WAS A FANATIC ON FORMALITY AND HE ONLY ADDRESSED ME IN THE THIRD PERSON TO THE POINT WHERE IT GOT TIRESOME",
+          "hyp": "He was a fanatic on formality and he only addressed me in the third person to the point where it got tiresome",
+          "errors": 0
+        },
+        {
+          "id": "8463-294828-0027",
+          "ref": "I LEFT INSTRUCTIONS FOR SHIPPING MY CONTAINERS OF STUFFED ANIMALS AND DRIED PLANTS TO PARIS FRANCE",
+          "hyp": "I left instructions for shipping my containers of stuffed animals and dried plants to Paris, France.",
+          "errors": 0
+        },
+        {
+          "id": "8555-284447-0001",
+          "ref": "HOLD HIM FAST MY MEN AND AS SOON AS I'VE HAD MY COFFEE AND OATMEAL I'LL TAKE HIM TO THE ROOM OF THE GREAT KNIFE AND PATCH HIM",
+          "hyp": "Hold him fast, my man, and as soon as I've had my coffee and oatmeal, I'll take him to the room of the Great Knife and patch him.",
+          "errors": 1
+        },
+        {
+          "id": "8555-284447-0014",
+          "ref": "THE IDEA OF PATCHING CAP'N BILL TO A GOAT WAS VASTLY AMUSING TO HIM AND THE MORE HE THOUGHT OF IT THE MORE HE ROARED WITH LAUGHTER",
+          "hyp": "The idea of patching cat and bill to a goat was vastly amusing to him. And the more he thought of it, the more he roared with laughter.",
+          "errors": 2
+        },
+        {
+          "id": "8555-284449-0002",
+          "ref": "AT THE HEAD OF THE PINKIES WERE GHIP GHISIZZLE AND BUTTON BRIGHT WHO HAD THE PARROT ON HIS SHOULDER AND THEY WERE SUPPORTED BY CAPTAIN CORALIE AND CAPTAIN TINTINT AND ROSALIE THE WITCH",
+          "hyp": "At the head of the pinkies were Gitgesizzle and Button Bright, who had the parrot on his shoulder, and they were supported by Captain Coralie and Captain Tintent and Rosalie the Witch.",
+          "errors": 3
+        },
+        {
+          "id": "8555-284449-0015",
+          "ref": "I'LL NOT BE WICKED ANY MORE SIGHED THE OLD BOOLOOROO I'LL REFORM",
+          "hyp": "I'll not be wicked anymore, sighed the old Boolaroo. I'll reform.",
+          "errors": 3
+        },
+        {
+          "id": "8555-292519-0007",
+          "ref": "IT IS MY HEART HUNG IN THE SKY AND NO CLOUDS EVER FLOAT BETWEEN THE GRAVE FLOWERS AND MY HEART ON HIGH",
+          "hyp": "It is my heart hung in the sky, and no clouds ever float between the grave flowers and my heart on high.",
+          "errors": 0
+        },
+        {
+          "id": "908-157963-0004",
+          "ref": "THEL IS LIKE A WATRY BOW AND LIKE A PARTING CLOUD LIKE A REFLECTION IN A GLASS LIKE SHADOWS IN THE WATER LIKE DREAMS OF INFANTS LIKE A SMILE UPON AN INFANTS FACE",
+          "hyp": "Thel is like a watery bow and like a parting cloud, like a reflection in a glass, like shadows in the water, like dreams of infants, like a smile upon an infant's face.",
+          "errors": 2
+        },
+        {
+          "id": "908-157963-0017",
+          "ref": "THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D",
+          "hyp": "The cloud then showed his golden head and his bright form emerged.",
+          "errors": 2
+        },
+        {
+          "id": "908-157963-0030",
+          "ref": "WHY AN EAR A WHIRLPOOL FIERCE TO DRAW CREATIONS IN",
+          "hyp": "Why an ear, a whirlpool, fears to draw creations in?",
+          "errors": 1
+        },
+        {
+          "id": "908-31957-0012",
+          "ref": "IF HE TO KEEP ONE OATH MUST LOSE ONE JOY BY HIS LIFE'S STAR FORETOLD",
+          "hyp": "If he, to keep one oath, must lose one joy by his life's star foretold.",
+          "errors": 0
+        }
+      ]
+    }
+  },
+  "hardware": {
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.12.13",
+    "cpu_count": 8,
+    "ram_gb": 8.0,
+    "chip": "Apple M2",
+    "model": "Mac14,7",
+    "macos": "15.5",
+    "packages": {
+      "sherpa-onnx": "2.0.2",
+      "kokoro-onnx": "0.6.1",
+      "openwakeword": "0.6.0",
+      "onnxruntime": "1.32.0",
+      "faster-whisper": "1.2.1"
+    }
+  },
+  "command": "jarvis bench stt",
+  "wall_s": 369.3
+}
