@@ -1,0 +1,29 @@
+# Copy to jarvis.toml (gitignored) and edit. Every key is optional; unknown keys
+# are rejected so a typo cannot silently fall back to a default.
+
+[wake]
+engine = "openwakeword"          # or "none" (use `jarvis listen --ptt`)
+threshold = 0.5                  # see docs/RESULTS.md for the miss / false-accept trade-off
+
+[vad]
+end_silence_ms = 600             # silence that ends your request; lower = snappier, more cut-offs
+
+[stt]
+engine = "parakeet"              # or "whisper" (needs `uv sync --extra whisper`)
+threads = 4
+
+[llm]
+model = "llama3.2"               # any Ollama model; 7-8B models are slow on an 8 GB Mac
+host = "http://127.0.0.1:11434"
+temperature = 0.6
+max_tokens = 160
+history_turns = 8
+
+[tts]
+voice = "am_michael"             # any Kokoro voice, e.g. af_heart, bm_george
+speed = 1.0
+
+[pipeline]
+streaming = true
+first_chunk = "clause"           # or "sentence"
+barge_in = "wake"                # "vad" only with headphones; "off" to disable

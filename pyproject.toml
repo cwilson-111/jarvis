@@ -1,0 +1,92 @@
+[project]
+name = "jarvis-voice"
+version = "0.1.0"
+description = "A local-first voice assistant: wake word, VAD, Parakeet STT, Ollama LLM, Kokoro TTS, streamed and instrumented."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Cole Wilson" }]
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.11",
+    "soundfile>=0.12",
+    "sounddevice>=0.5",
+    "httpx>=0.27",
+    "psutil>=6.0",
+    "onnxruntime>=1.20",
+    "sherpa-onnx>=1.12",
+    "kokoro-onnx>=0.4.9",
+    "openwakeword>=0.6.0",
+]
+
+[project.optional-dependencies]
+# Comparator STT engine used only by `jarvis bench stt --engine whisper`.
+whisper = ["faster-whisper>=1.1"]
+
+[project.scripts]
+jarvis = "jarvis.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.8",
+    "mypy>=1.13",
+]
+
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+# Anaconda's python3.12 on this class of machine is x86_64 (Rosetta); onnxruntime
+# has no wheel for it and it would be slow anyway. Use uv's native interpreters.
+python-preference = "only-managed"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/jarvis"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "N", "PL"]
+ignore = [
+    "PLR0913", # engine constructors legitimately take many knobs
+    "PLR2004", # magic numbers are fine in DSP code
+    "PLR0911",
+    "PLR0912",
+    "PLR0915",
+    "PLC0415", # heavy engines are imported lazily so the CLI and tests stay model-free
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["PLR2004"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+files = ["src", "tests"]
+mypy_path = "src"
+
+# Third-party engines ship without type information.
+[[tool.mypy.overrides]]
+module = [
+    "sherpa_onnx.*",
+    "kokoro_onnx.*",
+    "openwakeword.*",
+    "sounddevice.*",
+    "soundfile.*",
+    "onnxruntime.*",
+    "faster_whisper.*",
+    "psutil.*",
+    "scipy.*",
+    "espeakng_loader.*",
+]
+ignore_missing_imports = true

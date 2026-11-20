@@ -1,0 +1,22 @@
+# Model weights, datasets, audio and traces never go in git.
+models/
+data/
+traces/
+*.wav
+*.flac
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local config (may point at private paths)
+jarvis.toml
+
+.DS_Store
